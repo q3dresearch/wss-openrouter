@@ -29,7 +29,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.7"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.8"
 
 jobs:
   derive:
@@ -43,6 +43,13 @@ jobs:
         run: pip install "$ENGINE_SPEC"
       - name: Rebuild derived/ from the raw archive
         run: wss derive
+      - name: Refresh the dataset page
+        # Coverage dates come from the manifest, so the page goes stale the
+        # moment a new capture lands. Regenerating it here is what makes the
+        # "generated, never maintained" claim in its header true. Skipped on
+        # pull requests, where the dates would move under the diff gate below.
+        if: github.event_name != 'pull_request'
+        run: wss datapage --repo-url "https://github.com/${{ github.repository }}"
       - name: Byte-identical or red (pull requests)
         if: github.event_name == 'pull_request'
         run: git diff --exit-code -- derived
@@ -51,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A derived
+          git add -A derived docs
           if git diff --cached --quiet; then
             echo "nothing to commit"
             exit 0

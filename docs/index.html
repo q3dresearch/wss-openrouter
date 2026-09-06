@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OpenRouter Usage History (wss-openrouter)</title>
+<meta name="description" content="Point-in-time captures from 6 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "OpenRouter Usage History (wss-openrouter)",
+  "description": "Point-in-time captures from 6 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.",
+  "url": "https://github.com/neldivad/wss-openrouter",
+  "license": "CC-BY-4.0",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "git-scraping",
+    "open-data",
+    "point-in-time-data",
+    "dataset"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "neldivad",
+      "url": "https://github.com/neldivad"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://github.com/neldivad/wss-openrouter/tree/main/data"
+    }
+  ],
+  "temporalCoverage": "2026-09-01/2026-09-01",
+  "isBasedOn": [
+    {
+      "@type": "Dataset",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/api/v1/benchmarks?source=artificial-analysis&max_results=100"
+    },
+    {
+      "@type": "Dataset",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/api/v1/benchmarks?source=design-arena&max_results=100"
+    },
+    {
+      "@type": "Dataset",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/api/v1/benchmarks?source=openrouter&max_results=100"
+    },
+    {
+      "@type": "Dataset",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/api/v1/classifications/task?window=7d"
+    },
+    {
+      "@type": "Dataset",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "@type": "Dataset",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/api/v1/datasets/session-cost?app_slug=claude-code"
+    }
+  ]
+}
+</script>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+         Helvetica, Arial, sans-serif; max-width: 46rem; margin: 0 auto;
+         padding: 2.5rem 1.25rem; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { text-align: left; padding: .4rem .6rem;
+            border-bottom: 1px solid rgba(128,128,128,.3); font-size: .92rem; }
+  code { font-size: .9em; }
+  .cov { font-size: .95rem; }
+  footer { margin-top: 2.5rem; font-size: .85rem; opacity: .75; }
+</style>
+</head>
+<body>
+<h1>OpenRouter Usage History (wss-openrouter)</h1>
+<p>Point-in-time captures from 6 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.</p>
+<p class="cov">History held: <strong>2026-09-01</strong> to <strong>2026-09-01</strong>.</p>
+
+<h2>What is captured</h2>
+<table>
+  <thead><tr><th>source</th><th>publisher</th><th>cadence</th><th>terms</th></tr></thead>
+  <tbody>
+      <tr><td><code>openrouter.benchmarks.artificial-analysis</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 via OpenRouter; scores originate with Artificial Analysis (artificialanalysis.ai)</td></tr>
+      <tr><td><code>openrouter.benchmarks.design-arena</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 via OpenRouter; scores originate with Design Arena (www.designarena.ai)</td></tr>
+      <tr><td><code>openrouter.benchmarks.openrouter</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 via OpenRouter; scores originate with OpenRouter&#x27;s own evaluations</td></tr>
+      <tr><td><code>openrouter.classifications.task</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 — cite: Source: OpenRouter (openrouter.ai/rankings), as of &lt;as_of&gt;.</td></tr>
+      <tr><td><code>openrouter.models.catalog</code></td><td>OpenRouter</td><td>weekly</td><td>public API; see https://openrouter.ai/terms</td></tr>
+      <tr><td><code>openrouter.sessions.cost</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 — cite: Source: OpenRouter Data API, as of &lt;as_of&gt;.</td></tr>
+  </tbody>
+</table>
+
+<h2>Using it</h2>
+<p>Derived tables are CSV under <code>data/</code> in
+<a href="https://github.com/neldivad/wss-openrouter">the repository</a>; the bytes they came from are under
+<code>raw/</code>, and <code>SOURCES.md</code> lists every source URL.</p>
+<p>Every observation carries <code>source_id</code> and <code>raw_ref</code>. The
+matching manifest row holds that <code>raw_ref</code> with the URL, the fetch
+timestamp and a SHA-256 of exactly what came back, so any number here traces to
+the bytes it came from.</p>
+<p>Cite this dataset by its repository and the date you took it from: <a href="https://github.com/neldivad/wss-openrouter">https://github.com/neldivad/wss-openrouter</a>, accessed 2026-09-01.</p>
+
+<footer>
+<p>Repository code and captured data are licensed separately. This dataset is
+offered under CC-BY-4.0; each publisher's own terms govern their material and
+are listed per source above. Generated by <code>wss datapage</code> — do not edit
+by hand.</p>
+</footer>
+</body>
+</html>
