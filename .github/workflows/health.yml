@@ -6,7 +6,7 @@ name: health
 
 on:
   schedule:
-    - cron: "40 23 * * *"
+    - cron: "40 23 * * 1" # matches the fastest capture cadence
   workflow_dispatch:
 
 permissions:
@@ -14,11 +14,11 @@ permissions:
   issues: write
 
 concurrency:
-  group: fleet-commits-daily
+  group: fleet-commits
   cancel-in-progress: false
 
 env:
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.4"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.7"
 
 jobs:
   health:

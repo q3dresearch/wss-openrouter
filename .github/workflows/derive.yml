@@ -11,7 +11,7 @@ name: derive
 
 on:
   schedule:
-    - cron: "20 0 * * *" # after capture + health
+    - cron: "20 0 * * 2" # after capture + health # after capture + health
   workflow_dispatch:
   pull_request:
     paths:
@@ -25,11 +25,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: fleet-commits-daily
+  group: fleet-commits
   cancel-in-progress: false
 
 env:
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.4"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.7"
 
 jobs:
   derive:
