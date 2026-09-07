@@ -8,6 +8,8 @@ abstract: >-
 authors:
   - name: "neldivad"
     website: "https://github.com/neldivad"
+  - name: "q3dresearch"
+    website: "https://github.com/q3dresearch"
 license: CC-BY-4.0
 keywords:
   - git-scraping
