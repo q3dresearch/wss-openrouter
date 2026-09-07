@@ -6,15 +6,15 @@
 
 <div align="center">
 
-  <a href="https://github.com/neldivad/wss-openrouter/actions/workflows/capture-weekly.yml"><img alt="capture status" src="https://img.shields.io/github/actions/workflow/status/neldivad/wss-openrouter/capture-weekly.yml?label=capture&style=flat-square"></a>
-  <a href="https://github.com/neldivad/wss-openrouter/commits"><img alt="last capture" src="https://img.shields.io/github/last-commit/neldivad/wss-openrouter?label=last%20capture&style=flat-square"></a>
-  <a href="https://github.com/neldivad/wss-openrouter/blob/main/LICENSE"><img alt="licence" src="https://img.shields.io/github/license/neldivad/wss-openrouter?style=flat-square"></a>
-  <a href="https://github.com/neldivad/wss-openrouter"><img alt="stars" src="https://img.shields.io/github/stars/neldivad/wss-openrouter?style=social"></a>
+  <a href="https://github.com/q3dresearch/wss-openrouter/actions/workflows/capture-weekly.yml"><img alt="capture status" src="https://img.shields.io/github/actions/workflow/status/q3dresearch/wss-openrouter/capture-weekly.yml?label=capture&style=flat-square"></a>
+  <a href="https://github.com/q3dresearch/wss-openrouter/commits"><img alt="last capture" src="https://img.shields.io/github/last-commit/q3dresearch/wss-openrouter?label=last%20capture&style=flat-square"></a>
+  <a href="https://github.com/q3dresearch/wss-openrouter/blob/main/LICENSE"><img alt="licence" src="https://img.shields.io/github/license/q3dresearch/wss-openrouter?style=flat-square"></a>
+  <a href="https://github.com/q3dresearch/wss-openrouter"><img alt="stars" src="https://img.shields.io/github/stars/q3dresearch/wss-openrouter?style=social"></a>
 
 </div>
 
 <p align="center">
-  <sub>fleet: <a href="https://github.com/neldivad/wss-engine">engine</a> · <a href="https://github.com/neldivad/wss-hugging-face">hugging face</a> · <strong>openrouter</strong> · <a href="https://github.com/neldivad/wss-cloud-footprint">cloud footprint</a> · <a href="https://github.com/neldivad/wss-mining-pipeline">mining</a> · <a href="https://github.com/neldivad/wss-forest-harvest">forest</a> · <a href="https://github.com/neldivad/wss-food-trace">food</a></sub>
+  <sub>fleet: <a href="https://github.com/q3dresearch/wss-engine">engine</a> · <a href="https://github.com/q3dresearch/wss-hugging-face">hugging face</a> · <strong>openrouter</strong> · <a href="https://github.com/q3dresearch/wss-cloud-footprint">cloud footprint</a> · <a href="https://github.com/q3dresearch/wss-mining-pipeline">mining</a> · <a href="https://github.com/q3dresearch/wss-forest-harvest">forest</a> · <a href="https://github.com/q3dresearch/wss-food-trace">food</a></sub>
 </p>
 
 The task mix, session economics and benchmark scores here all come from
@@ -78,7 +78,7 @@ matches versus 14.
 key below is only for running your own capture:
 
 ```bash
-B=https://raw.githubusercontent.com/neldivad/wss-openrouter/main/derived/observations
+B=https://raw.githubusercontent.com/q3dresearch/wss-openrouter/main/derived/observations
 duckdb -c "SELECT * FROM read_csv_auto('$B/2026-09.csv') LIMIT 5"
 ```
 
@@ -103,7 +103,7 @@ Every query in [examples/queries.sql](examples/queries.sql) shows the pattern.
 
 Six weekly sources — task classifications, three benchmark sets, session costs
 and the model catalogue — captured Mondays 22:35 UTC by the
-[wss](https://github.com/neldivad/wss-engine) engine. Coverage dates live in
+[wss](https://github.com/q3dresearch/wss-engine) engine. Coverage dates live in
 [health/health.csv](health/health.csv).
 
 ## Contributing

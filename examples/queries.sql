@@ -3,7 +3,7 @@
 --                value, unit, source_id, raw_ref, parser_version)
 -- Run with: python examples/load_observations.py
 -- Or in DuckDB, straight off GitHub with no credentials:
---   SELECT * FROM read_csv_auto('https://raw.githubusercontent.com/neldivad/wss-openrouter/main/derived/observations/*.csv')
+--   SELECT * FROM read_csv_auto('https://raw.githubusercontent.com/q3dresearch/wss-openrouter/main/derived/observations/*.csv')
 
 -- EVERY query starts by deduplicating. Several sources restate the same
 -- observed_at on each capture -- the task mix describes a trailing 7-day
