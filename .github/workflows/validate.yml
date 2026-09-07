@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 env:
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.3"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.4"
 
 jobs:
   validate:
