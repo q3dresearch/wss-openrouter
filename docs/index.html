@@ -11,7 +11,7 @@
   "@type": "Dataset",
   "name": "OpenRouter Usage History (wss-openrouter)",
   "description": "Point-in-time captures from 6 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.",
-  "url": "https://github.com/neldivad/wss-openrouter",
+  "url": "https://github.com/q3dresearch/wss-openrouter",
   "license": "CC-BY-4.0",
   "isAccessibleForFree": true,
   "keywords": [
@@ -25,16 +25,21 @@
       "@type": "Person",
       "name": "neldivad",
       "url": "https://github.com/neldivad"
+    },
+    {
+      "@type": "Person",
+      "name": "q3dresearch",
+      "url": "https://github.com/q3dresearch"
     }
   ],
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://github.com/neldivad/wss-openrouter/tree/main/data"
+      "contentUrl": "https://github.com/q3dresearch/wss-openrouter/tree/main/data"
     }
   ],
-  "temporalCoverage": "2026-09-01/2026-09-01",
+  "temporalCoverage": "2026-09-01/2026-09-08",
   "isBasedOn": [
     {
       "@type": "Dataset",
@@ -86,7 +91,7 @@
 <body>
 <h1>OpenRouter Usage History (wss-openrouter)</h1>
 <p>Point-in-time captures from 6 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.</p>
-<p class="cov">History held: <strong>2026-09-01</strong> to <strong>2026-09-01</strong>.</p>
+<p class="cov">History held: <strong>2026-09-01</strong> to <strong>2026-09-08</strong>.</p>
 
 <h2>What is captured</h2>
 <table>
@@ -103,13 +108,13 @@
 
 <h2>Using it</h2>
 <p>Derived tables are CSV under <code>data/</code> in
-<a href="https://github.com/neldivad/wss-openrouter">the repository</a>; the bytes they came from are under
+<a href="https://github.com/q3dresearch/wss-openrouter">the repository</a>; the bytes they came from are under
 <code>raw/</code>, and <code>SOURCES.md</code> lists every source URL.</p>
 <p>Every observation carries <code>source_id</code> and <code>raw_ref</code>. The
 matching manifest row holds that <code>raw_ref</code> with the URL, the fetch
 timestamp and a SHA-256 of exactly what came back, so any number here traces to
 the bytes it came from.</p>
-<p>Cite this dataset by its repository and the date you took it from: <a href="https://github.com/neldivad/wss-openrouter">https://github.com/neldivad/wss-openrouter</a>, accessed 2026-09-01.</p>
+<p>Cite this dataset by its repository and the date you took it from: <a href="https://github.com/q3dresearch/wss-openrouter">https://github.com/q3dresearch/wss-openrouter</a>, accessed 2026-09-08.</p>
 
 <footer>
 <p>Repository code and captured data are licensed separately. This dataset is
