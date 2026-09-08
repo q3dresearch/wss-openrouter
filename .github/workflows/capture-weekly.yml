@@ -25,11 +25,12 @@ env:
   WSS_CONTACT: ${{ secrets.WSS_CONTACT || format('{0} +https://github.com/{1}', github.repository_owner, github.repository) }}
   CADENCE: weekly
   SHARDS: "20" # matrix cap is 256 jobs/run — aim for ~20 jobs of ~50 sources
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.8"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.14"
 
 jobs:
   plan:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     outputs:
       shards: ${{ steps.plan.outputs.shards }}
       count: ${{ steps.plan.outputs.count }}
@@ -57,6 +58,7 @@ jobs:
     needs: plan
     if: needs.plan.outputs.shards != '[]'
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     strategy:
       fail-fast: false # one bad source must not stop the rest of the fleet
       matrix:
@@ -95,6 +97,7 @@ jobs:
     # always(): a red shard still gets its successful sources committed
     if: always() && needs.plan.result == 'success' && needs.plan.outputs.shards != '[]'
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
       - uses: actions/download-artifact@v8
