@@ -15,6 +15,21 @@ import csv
 import sqlite3
 from pathlib import Path
 
+
+def _open_partition(path):
+    """Open a derived partition, gzipped or not.
+
+    Engine v0.6.34 made `derived/observations/*.csv.gz` the written form. Every
+    reader in this repo went on globbing `*.csv`, found nothing, and said "no
+    observations yet -- run capture + derive first" over a full archive. Stdlib
+    only, so `head`/`zcat` remain the only tools a reader needs.
+    """
+    import gzip
+    import io
+    if str(path).endswith(".gz"):
+        return io.TextIOWrapper(gzip.open(path, "rb"), encoding="utf-8", newline="")
+    return open(path, encoding="utf-8", newline="")
+
 REPO = Path(__file__).resolve().parents[1]
 COLUMNS = [
     "series_id",
@@ -36,8 +51,8 @@ def load(db_path: str) -> sqlite3.Connection:
     con.execute(f"CREATE TABLE observations ({', '.join(c + ' TEXT' for c in COLUMNS)})")
     placeholders = ", ".join("?" for _ in COLUMNS)
     total = 0
-    for partition in sorted((REPO / "derived" / "observations").glob("*.csv")):
-        with partition.open(encoding="utf-8", newline="") as fh:
+    for partition in sorted((REPO / "derived" / "observations").glob("*.csv*")):
+        with _open_partition(partition) as fh:
             rows = [[r[c] for c in COLUMNS] for r in csv.DictReader(fh)]
         con.executemany(f"INSERT INTO observations VALUES ({placeholders})", rows)
         total += len(rows)
