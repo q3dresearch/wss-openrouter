@@ -3,3 +3,12 @@
 *.json text eol=lf
 *.yml text eol=lf
 *.md text eol=lf
+
+# The manifest is APPEND-ONLY, and two writers append to the same month file
+# whenever a scheduled run and a local run overlap. Git cannot merge adjacent
+# added lines, so `git pull --rebase` in the commit step hit a content conflict
+# and burned all five retry attempts -- this repo's monthly shard died that
+# way with the capture itself succeeding. `union` concatenates both sides,
+# which is correct for an append-only log.
+manifest/**/*.csv merge=union
+manifest/**/*.csv.gz -merge -text

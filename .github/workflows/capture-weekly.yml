@@ -25,7 +25,7 @@ env:
   WSS_CONTACT: ${{ secrets.WSS_CONTACT || format('{0} +https://github.com/{1}', github.repository_owner, github.repository) }}
   CADENCE: weekly
   SHARDS: "20" # matrix cap is 256 jobs/run — aim for ~20 jobs of ~50 sources
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.38"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.41"
 
 jobs:
   plan:
@@ -132,7 +132,14 @@ jobs:
           for i in 1 2 3 4 5; do
             if git push; then exit 0; fi
             sleep $((i * 5))
-            git pull --rebase
+            # `git pull --rebase` leaves a CONFLICTED TREE when it fails, so
+            # attempts 2-5 fail for a different reason than attempt 1 and the
+            # log reads as a push race. Abort so each attempt starts clean;
+            # merge=union in .gitattributes handles the append-only manifest.
+            if ! git pull --rebase; then
+              git rebase --abort || true
+              echo "rebase conflict on attempt $i -- not a push race" >&2
+            fi
           done
           echo "push failed after 5 attempts" >&2
           exit 1
