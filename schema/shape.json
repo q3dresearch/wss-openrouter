@@ -1,0 +1,584 @@
+{
+  "generated_at": "2026-09-15T13:15:04Z",
+  "note": "Inferred from the derived rows by `wss schema`, not hand-written. Regenerate after any derive.",
+  "sources": {
+    "openrouter.benchmarks.artificial-analysis": {
+      "source_id": "openrouter.benchmarks.artificial-analysis",
+      "schema_id": "or-benchmarks.v1",
+      "cadence": "weekly",
+      "licence": "CC BY 4.0 via OpenRouter; scores originate with Artificial Analysis (artificialanalysis.ai)",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "OpenRouter",
+      "publisher_tier": "redistribution",
+      "endpoints": 1
+    },
+    "openrouter.benchmarks.design-arena": {
+      "source_id": "openrouter.benchmarks.design-arena",
+      "schema_id": "or-benchmarks.v1",
+      "cadence": "weekly",
+      "licence": "CC BY 4.0 via OpenRouter; scores originate with Design Arena (www.designarena.ai)",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "OpenRouter",
+      "publisher_tier": "redistribution",
+      "endpoints": 1
+    },
+    "openrouter.benchmarks.openrouter": {
+      "source_id": "openrouter.benchmarks.openrouter",
+      "schema_id": "or-benchmarks.v1",
+      "cadence": "weekly",
+      "licence": "CC BY 4.0 via OpenRouter; scores originate with OpenRouter's own evaluations",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "OpenRouter",
+      "publisher_tier": "redistribution",
+      "endpoints": 1
+    },
+    "openrouter.classifications.task": {
+      "source_id": "openrouter.classifications.task",
+      "schema_id": "or-classifications.v1",
+      "cadence": "weekly",
+      "licence": "CC BY 4.0 — cite: Source: OpenRouter (openrouter.ai/rankings), as of <as_of>.",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "OpenRouter",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "openrouter.models.catalog": {
+      "source_id": "openrouter.models.catalog",
+      "schema_id": "or-catalog.v1",
+      "cadence": "weekly",
+      "licence": "public API; see https://openrouter.ai/terms",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "OpenRouter",
+      "publisher_tier": "redistribution",
+      "endpoints": 1
+    },
+    "openrouter.sessions.cost": {
+      "source_id": "openrouter.sessions.cost",
+      "schema_id": "or-sessions.v1",
+      "cadence": "weekly",
+      "licence": "CC BY 4.0 — cite: Source: OpenRouter Data API, as of <as_of>.",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "OpenRouter",
+      "publisher_tier": "first_party",
+      "endpoints": 4
+    }
+  },
+  "observations": {
+    "rows": 20848,
+    "columns": [
+      "series_id",
+      "entity_id",
+      "observed_at",
+      "captured_at",
+      "metric",
+      "value",
+      "unit",
+      "source_id",
+      "raw_ref",
+      "parser_version"
+    ],
+    "partitions": [
+      "2026-08.csv.gz",
+      "2026-09.csv.gz"
+    ],
+    "series": {
+      "openrouter.benchmarks.artificial-analysis": {
+        "rows": 1079,
+        "entities": 124,
+        "entity_id_samples": [
+          "anthropic/claude-3.5-sonnet",
+          "anthropic/claude-3.5-sonnet-20240620",
+          "anthropic/claude-4-sonnet-20250522"
+        ],
+        "metrics": [
+          "agentic_index",
+          "coding_index",
+          "intelligence_index"
+        ]
+      },
+      "openrouter.benchmarks.design-arena": {
+        "rows": 900,
+        "entities": 114,
+        "entity_id_samples": [
+          "anthropic/claude-4.6-opus-20260205/arena:models/3d",
+          "anthropic/claude-4.6-opus-20260205/arena:models/codecategories",
+          "anthropic/claude-4.6-opus-20260205/arena:models/dataviz"
+        ],
+        "metrics": [
+          "avg_generation_time",
+          "elo",
+          "win_rate"
+        ]
+      },
+      "openrouter.benchmarks.openrouter": {
+        "rows": 598,
+        "entities": 103,
+        "entity_id_samples": [
+          "amazon/nova-micro-v1/bench:gpqa_diamond",
+          "anthropic/claude-4-sonnet-20250522/bench:gpqa_diamond",
+          "anthropic/claude-4.5-haiku-20251001/bench:gpqa_diamond"
+        ],
+        "metrics": [
+          "accuracy",
+          "avg_cost_per_task",
+          "total_tasks"
+        ]
+      },
+      "openrouter.classifications.task": {
+        "rows": 2112,
+        "entities": 407,
+        "entity_id_samples": [
+          "macro:agent",
+          "macro:code",
+          "macro:data"
+        ],
+        "metrics": [
+          "category_token_share",
+          "category_usage_share",
+          "tag_token_share",
+          "tag_usage_share",
+          "token_share",
+          "usage_share"
+        ]
+      },
+      "openrouter.models.catalog": {
+        "rows": 14907,
+        "entities": 434,
+        "entity_id_samples": [
+          "aion-labs/aion-2.0",
+          "aion-labs/aion-3.0",
+          "aion-labs/aion-3.0-mini"
+        ],
+        "metrics": [
+          "canonical_slug",
+          "context_length",
+          "hugging_face_id",
+          "price_cache_read_usd_per_mtok",
+          "price_completion_usd_per_mtok",
+          "price_prompt_usd_per_mtok"
+        ]
+      },
+      "openrouter.sessions.cost": {
+        "rows": 1252,
+        "entities": 342,
+        "entity_id_samples": [
+          "app:claude-code/turns:1-turn/model:anthropic/claude-3-haiku",
+          "app:claude-code/turns:1-turn/model:anthropic/claude-4.5-haiku-20251001",
+          "app:claude-code/turns:1-turn/model:anthropic/claude-4.5-sonnet-20250929"
+        ],
+        "metrics": [
+          "median_session_cost"
+        ]
+      }
+    },
+    "parser_versions": [
+      "1",
+      "2"
+    ]
+  },
+  "metrics": {
+    "accuracy": {
+      "rows": 200,
+      "unit": "fraction",
+      "type": "number",
+      "series": [
+        "openrouter.benchmarks.openrouter"
+      ],
+      "entities": 103,
+      "distinct_values": 167,
+      "empty": 0,
+      "min": "0.6167045282805429",
+      "max": "0.944444",
+      "samples": [
+        "0.6167045282805429",
+        "0.6381654054360136",
+        "0.643098"
+      ]
+    },
+    "agentic_index": {
+      "rows": 354,
+      "unit": "index",
+      "type": "number",
+      "series": [
+        "openrouter.benchmarks.artificial-analysis"
+      ],
+      "entities": 118,
+      "distinct_values": 193,
+      "empty": 0,
+      "min": "0.1",
+      "max": "59.2",
+      "samples": [
+        "0.1",
+        "0.5",
+        "0.6"
+      ]
+    },
+    "avg_cost_per_task": {
+      "rows": 198,
+      "unit": "USD",
+      "type": "number",
+      "series": [
+        "openrouter.benchmarks.openrouter"
+      ],
+      "entities": 102,
+      "distinct_values": 171,
+      "empty": 0,
+      "min": "0.0013303306908267274",
+      "max": "0.8424239494949496",
+      "samples": [
+        "0.0013303306908267274",
+        "0.001919949283559578",
+        "0.0019261958375980893"
+      ]
+    },
+    "avg_generation_time": {
+      "rows": 300,
+      "unit": "ms",
+      "type": "number",
+      "series": [
+        "openrouter.benchmarks.design-arena"
+      ],
+      "entities": 114,
+      "distinct_values": 264,
+      "empty": 0,
+      "min": "10976",
+      "max": "693336",
+      "samples": [
+        "104569",
+        "104657",
+        "105137"
+      ]
+    },
+    "canonical_slug": {
+      "rows": 2966,
+      "unit": "ref",
+      "type": "text",
+      "series": [
+        "openrouter.models.catalog"
+      ],
+      "entities": 434,
+      "distinct_values": 350,
+      "empty": 0,
+      "samples": [
+        "aion-labs/aion-2.0-20260223",
+        "aion-labs/aion-3.0-20260707",
+        "aion-labs/aion-3.0-mini-20260707"
+      ]
+    },
+    "category_token_share": {
+      "rows": 87,
+      "unit": "share",
+      "type": "number",
+      "series": [
+        "openrouter.classifications.task"
+      ],
+      "entities": 29,
+      "distinct_values": 68,
+      "empty": 0,
+      "min": "0.007",
+      "max": "0.727",
+      "samples": [
+        "0.007",
+        "0.008",
+        "0.012"
+      ]
+    },
+    "category_usage_share": {
+      "rows": 87,
+      "unit": "share",
+      "type": "number",
+      "series": [
+        "openrouter.classifications.task"
+      ],
+      "entities": 29,
+      "distinct_values": 66,
+      "empty": 0,
+      "min": "0.003",
+      "max": "0.723",
+      "samples": [
+        "0.003",
+        "0.008",
+        "0.009"
+      ]
+    },
+    "coding_index": {
+      "rows": 400,
+      "unit": "index",
+      "type": "number",
+      "series": [
+        "openrouter.benchmarks.artificial-analysis"
+      ],
+      "entities": 124,
+      "distinct_values": 116,
+      "empty": 0,
+      "min": "4.8",
+      "max": "81.6",
+      "samples": [
+        "10.1",
+        "12.1",
+        "13.8"
+      ]
+    },
+    "context_length": {
+      "rows": 2966,
+      "unit": "tokens",
+      "type": "number",
+      "series": [
+        "openrouter.models.catalog"
+      ],
+      "entities": 434,
+      "distinct_values": 45,
+      "empty": 0,
+      "min": "4095",
+      "max": "2000000",
+      "samples": [
+        "1000000",
+        "1000192",
+        "1010000"
+      ]
+    },
+    "elo": {
+      "rows": 300,
+      "unit": "rating",
+      "type": "number",
+      "series": [
+        "openrouter.benchmarks.design-arena"
+      ],
+      "entities": 114,
+      "distinct_values": 90,
+      "empty": 0,
+      "min": "1298",
+      "max": "1464",
+      "samples": [
+        "1298",
+        "1299",
+        "1300"
+      ]
+    },
+    "hugging_face_id": {
+      "rows": 1248,
+      "unit": "ref",
+      "type": "text",
+      "series": [
+        "openrouter.models.catalog"
+      ],
+      "entities": 182,
+      "distinct_values": 155,
+      "empty": 0,
+      "samples": [
+        "ByteDance-Seed/UI-TARS-1.5-7B",
+        "CohereForAI/c4ai-command-a-03-2025",
+        "CohereLabs/North-Mini-Code-1.0"
+      ]
+    },
+    "intelligence_index": {
+      "rows": 325,
+      "unit": "index",
+      "type": "number",
+      "series": [
+        "openrouter.benchmarks.artificial-analysis"
+      ],
+      "entities": 118,
+      "distinct_values": 187,
+      "empty": 0,
+      "min": "3.8",
+      "max": "63.1",
+      "samples": [
+        "10.1",
+        "10.9",
+        "11"
+      ]
+    },
+    "median_session_cost": {
+      "rows": 1252,
+      "unit": "USD/session",
+      "type": "text",
+      "series": [
+        "openrouter.sessions.cost"
+      ],
+      "entities": 342,
+      "distinct_values": 740,
+      "empty": 0,
+      "samples": [
+        "0.00010325",
+        "0.00011183333",
+        "0.000259"
+      ]
+    },
+    "price_cache_read_usd_per_mtok": {
+      "rows": 1795,
+      "unit": "USD/Mtok",
+      "type": "number",
+      "series": [
+        "openrouter.models.catalog"
+      ],
+      "entities": 267,
+      "distinct_values": 92,
+      "empty": 0,
+      "min": "0.002",
+      "max": "7.5",
+      "samples": [
+        "0.002",
+        "0.0025",
+        "0.0028"
+      ]
+    },
+    "price_completion_usd_per_mtok": {
+      "rows": 2966,
+      "unit": "USD/Mtok",
+      "type": "number",
+      "series": [
+        "openrouter.models.catalog"
+      ],
+      "entities": 434,
+      "distinct_values": 152,
+      "empty": 0,
+      "min": "-1000000",
+      "max": "600",
+      "samples": [
+        "-1000000",
+        "0",
+        "0.03"
+      ]
+    },
+    "price_prompt_usd_per_mtok": {
+      "rows": 2966,
+      "unit": "USD/Mtok",
+      "type": "number",
+      "series": [
+        "openrouter.models.catalog"
+      ],
+      "entities": 434,
+      "distinct_values": 124,
+      "empty": 0,
+      "min": "-1000000",
+      "max": "150",
+      "samples": [
+        "-1000000",
+        "0",
+        "0.017"
+      ]
+    },
+    "tag_token_share": {
+      "rows": 870,
+      "unit": "share",
+      "type": "number",
+      "series": [
+        "openrouter.classifications.task"
+      ],
+      "entities": 374,
+      "distinct_values": 180,
+      "empty": 0,
+      "min": "0.001",
+      "max": "0.387",
+      "samples": [
+        "0.001",
+        "0.002",
+        "0.003"
+      ]
+    },
+    "tag_usage_share": {
+      "rows": 870,
+      "unit": "share",
+      "type": "number",
+      "series": [
+        "openrouter.classifications.task"
+      ],
+      "entities": 374,
+      "distinct_values": 168,
+      "empty": 0,
+      "min": "0.01",
+      "max": "0.557",
+      "samples": [
+        "0.01",
+        "0.011",
+        "0.012"
+      ]
+    },
+    "token_share": {
+      "rows": 99,
+      "unit": "share",
+      "type": "number",
+      "series": [
+        "openrouter.classifications.task"
+      ],
+      "entities": 33,
+      "distinct_values": 56,
+      "empty": 0,
+      "min": "0.002",
+      "max": "0.378",
+      "samples": [
+        "0.002",
+        "0.003",
+        "0.005"
+      ]
+    },
+    "total_tasks": {
+      "rows": 200,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "openrouter.benchmarks.openrouter"
+      ],
+      "entities": 103,
+      "distinct_values": 85,
+      "empty": 0,
+      "min": "120",
+      "max": "5742",
+      "samples": [
+        "1182",
+        "1185",
+        "1188"
+      ]
+    },
+    "usage_share": {
+      "rows": 99,
+      "unit": "share",
+      "type": "number",
+      "series": [
+        "openrouter.classifications.task"
+      ],
+      "entities": 33,
+      "distinct_values": 55,
+      "empty": 0,
+      "min": "0.002",
+      "max": "0.544",
+      "samples": [
+        "0.002",
+        "0.004",
+        "0.005"
+      ]
+    },
+    "win_rate": {
+      "rows": 300,
+      "unit": "percent",
+      "type": "number",
+      "series": [
+        "openrouter.benchmarks.design-arena"
+      ],
+      "entities": 114,
+      "distinct_values": 119,
+      "empty": 0,
+      "min": "49.6",
+      "max": "79.2",
+      "samples": [
+        "49.6",
+        "50.8",
+        "51.5"
+      ]
+    }
+  },
+  "raw": {
+    "files": 34,
+    "bytes_on_disk": 2581099,
+    "capture_dates": 3,
+    "first_capture": "2026-09-01T14:47:56Z",
+    "last_capture": "2026-09-08T09:30:48Z"
+  }
+}
