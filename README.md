@@ -148,8 +148,13 @@ header, and it never reaches `raw/`, the manifest or any log. Rate limits are
 
 ## Licences
 
-Code MIT; data CC-BY-4.0. OpenRouter's Data API is itself CC BY 4.0 and
-requires this citation when republishing figures:
+Code MIT. Data is CC BY 4.0 for **five of six sources** — see
+[LICENSE-DATA](LICENSE-DATA). `openrouter.models.catalog` declares only the
+platform terms and is **not** covered by the grant; rows carry `source_id`, so
+which applies is determinable from the data.
+
+OpenRouter's Data API is CC BY 4.0 and requires this citation when republishing
+figures:
 
 > Source: OpenRouter (openrouter.ai/rankings), as of &lt;meta.as_of&gt;.
 > Licensed under CC BY 4.0.

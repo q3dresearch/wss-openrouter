@@ -10,6 +10,7 @@ authors:
     website: "https://github.com/neldivad"
   - name: "q3dresearch"
     website: "https://github.com/q3dresearch"
+# CC BY 4.0 covers 5 of 6 sources; openrouter.models.catalog is NOT covered. See LICENSE-DATA.
 license: CC-BY-4.0
 keywords:
   - git-scraping
