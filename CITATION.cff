@@ -10,8 +10,10 @@ authors:
     website: "https://github.com/neldivad"
   - name: "q3dresearch"
     website: "https://github.com/q3dresearch"
-# CC BY 4.0 covers 5 of 6 sources; openrouter.models.catalog is NOT covered. See LICENSE-DATA.
-license: CC-BY-4.0
+# No `license:` field: CC BY 4.0 covers 5 of 6 sources; openrouter.models.catalog declares only the
+# platform terms and is not covered. CFF cannot express a subset, so no blanket
+# claim is made. See LICENSE-DATA for the per-source table
+# The CODE is MIT (see LICENSE); this file cites the DATASET.
 keywords:
   - git-scraping
   - open-data
