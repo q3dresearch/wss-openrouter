@@ -44,22 +44,40 @@ jobs:
         run: pip install "$ENGINE_SPEC"
       - name: Rebuild derived/ from the raw archive
         run: wss derive
+      - name: Refresh the README charts
+        id: charts
+        # The charts are deterministic and read only derived/, so this belongs
+        # in the same run that changes derived/. It runs before datapage: the
+        # page copies examples/charts into docs/charts, and doing that first
+        # published last week's figures under this week's dates.
+        if: github.event_name != 'pull_request'
+        continue-on-error: true # a chart failure must not block the data commit
+        run: |
+          python examples/visualize.py
+          python examples/chart-maturity.py
+      - name: Discard a partial chart render
+        if: github.event_name != 'pull_request' && steps.charts.outcome == 'failure'
+        run: |
+          git checkout -- examples/charts
+          git clean -fd examples/charts
       - name: Refresh the dataset page
         # Coverage dates come from the manifest, so the page goes stale the
         # moment a new capture lands. Regenerating it here is what makes the
         # "generated, never maintained" claim in its header true. Skipped on
         # pull requests, where the dates would move under the diff gate below.
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && steps.charts.outcome == 'success'
         run: wss datapage --repo-url "https://github.com/${{ github.repository }}"
       - name: Byte-identical or red (pull requests)
         if: github.event_name == 'pull_request'
         run: git diff --exit-code -- derived
       - name: Commit new observations (scheduled/manual)
-        if: github.event_name != 'pull_request'
+        # A chart failure is allowed to reach this step: the data is the thing
+        # that cannot be re-fetched, so commit it and let the final gate go red.
+        if: github.event_name != 'pull_request' && (success() || steps.charts.outcome == 'failure')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A derived docs
+          git add -A derived docs examples/charts
           if git diff --cached --quiet; then
             echo "nothing to commit"
             exit 0
@@ -78,4 +96,12 @@ jobs:
             fi
           done
           echo "push failed after 5 attempts" >&2
+          exit 1
+      - name: Red if the charts failed to render
+        # The chart step is continue-on-error so the data commit above still
+        # lands. This is the other half: a broken chart must not leave a green
+        # run for the fleet sift to miss.
+        if: github.event_name != 'pull_request' && steps.charts.outcome == 'failure'
+        run: |
+          echo "::error::chart render failed; data and docs were committed, but the figures are stale"
           exit 1

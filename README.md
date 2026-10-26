@@ -286,8 +286,15 @@ duckdb -c "SELECT * FROM read_csv_auto('$B/2026-09.csv') LIMIT 5"
 ```bash
 head derived/observations/*.csv          # one row per entity/metric/day
 python examples/load_observations.py     # sqlite + example queries
-python examples/visualize.py             # regenerate every chart
+python examples/visualize.py             # regenerate the weekly charts
+python examples/chart-maturity.py        # regenerate the maturity plate
+python examples/research/run.py          # regenerate the archive-backed figures
 ```
+
+The weekly `derive` workflow reruns `examples/visualize.py` before
+`wss datapage`; the monthly `research` workflow refreshes the archive-backed
+figures. Both commit only generated output, so the page and the figures move
+with the data.
 
 Columns are `series_id, entity_id, observed_at, captured_at, metric, value,
 unit, source_id, raw_ref, parser_version`. `entity_id` is namespaced so

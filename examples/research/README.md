@@ -34,6 +34,16 @@ The cache lives in `examples/research/work/` and is gitignored. The charts are
 written to `examples/charts/` so `wss datapage` picks them up with the weekly
 figures.
 
+On GitHub this runs monthly as the `research` workflow, after the first weekly
+derive of the month. It checks out the sparse Hugging Face raw captures, fetches
+the publisher archives, renders the figures and commits only `examples/charts/`
+and `docs/`. The cache is never committed. Trigger it by hand when the archive
+has moved:
+
+```bash
+gh workflow run research.yml -R q3dresearch/wss-openrouter
+```
+
 ## What each figure asks
 
 **OpenRouter**
