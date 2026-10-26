@@ -8,6 +8,10 @@
 # 90 days, never in git. Bad bytes must not enter the archive.
 quarantine/
 
+# Research figures fetch the publisher's archive on demand. It is a cache,
+# not a capture: never commit it.
+examples/research/work/
+
 __pycache__/
 *.pyc
 .venv/

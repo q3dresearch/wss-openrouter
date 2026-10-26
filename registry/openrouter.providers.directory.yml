@@ -1,0 +1,36 @@
+# The other half of the routing question: who serves inference, where they are
+# headquartered, and which datacenters they name. A current snapshot with no
+# `meta.as_of` and no history endpoint, so a provider moving or adding a
+# datacenter is only visible if captured. Most providers name no datacenter at
+# all, which is the field's own limit rather than a gap in the capture.
+source_id: openrouter.providers.directory
+status: active
+cadence: weekly
+schema_id: or-providers.v1
+
+publisher: OpenRouter
+publisher_tier: redistribution
+destroys_own_history: true
+licence: "public API; see https://openrouter.ai/terms"
+personal_data: none
+storage: git
+
+notes: >-
+  Provider metadata rather than model performance: headquarters, named
+  datacenters, and the policy/status links a provider publishes. It answers a
+  data-residency question only where the field is filled, and the useful
+  finding is how often it is not — 84 of 114 providers name no datacenter.
+  No date parameter and no archive, so this is a capture source.
+
+endpoints:
+  - url: "https://openrouter.ai/api/v1/providers"
+    delay_seconds: 2
+    timeout_seconds: 30
+
+gates:
+  expect_status: 200
+  min_bytes: 5000
+  content_type_any: [json]
+  must_contain: ["slug", "headquarters", "datacenters"]
+  must_not_contain: ["Access Denied"]
+  max_shrink_pct: 50

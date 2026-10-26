@@ -89,8 +89,9 @@ def main():
     elif nd == 0:
         title = f"Nothing here is answered yet: {nn} wait on the capture, {no} are not on a clock."
     else:
+        wait = "waits" if nn == 1 else "wait"
         title = (f"{nd} of {len(qs)} questions are answered now; "
-                 f"{nn} wait on the capture; {no} are not on a clock at all.")
+                 f"{nn} {wait} on the capture; {no} are not on a clock at all.")
     span = max([q["at"] for q in dated] + [step * 4]) * 1.06
 
     # A FIXED LABEL COLUMN, not labels beside their marks. Placed beside the mark,

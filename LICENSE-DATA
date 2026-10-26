@@ -1,7 +1,7 @@
 # Data licence
 
-**CC BY 4.0 for five of six sources — with a required citation string, and one
-source that is not covered.**
+**CC BY 4.0 for five of eight sources — with a required citation string, and
+three sources that are not covered.**
 
 ## What the sources say
 
@@ -13,8 +13,10 @@ source that is not covered.**
 | `openrouter.benchmarks.design-arena` | CC BY 4.0 via OpenRouter; scores originate with **Design Arena** |
 | `openrouter.benchmarks.openrouter` | CC BY 4.0 via OpenRouter; OpenRouter's own evaluations |
 | `openrouter.models.catalog` | **public API; see <https://openrouter.ai/terms>** — no grant stated |
+| `openrouter.providers.directory` | **public API; see <https://openrouter.ai/terms>** — no grant stated |
+| `opencode.data.usage` | **no explicit licence; citation requested** — cite *OpenCode Data (opencode.ai/data)* with the page's update time |
 
-## Two things the old boilerplate lost
+## What the old boilerplate lost
 
 **The citation string is part of the grant.** Two sources specify the exact
 wording, including an `as_of` date. A bare CC-BY-4.0 file does not tell a reuser
@@ -23,6 +25,14 @@ that, so the condition went unmet by anyone following this repo's own file.
 **`openrouter.models.catalog` is not CC BY 4.0.** It declares only the platform
 terms, which govern use of an API rather than granting redistribution. Rows from
 that source are not covered by the grant below.
+
+**`openrouter.providers.directory` is not CC BY 4.0 either.** It is a live
+directory served under the same platform terms, with no dataset licence and no
+`meta.as_of`. Rows from it are not covered by the grant below.
+
+**`opencode.data.usage` states no licence either.** Its page asks for a
+citation with the update time, but grants no reuse terms. Rows from it are not
+covered by the grant below, and no onward licence is offered.
 
 **And the benchmark scores are third-party.** Artificial Analysis and Design
 Arena produced them; OpenRouter relays them. Attribute the originator, not
@@ -36,7 +46,9 @@ themselves rather than measurements over them.
 | the code | MIT, see [LICENSE](LICENSE) |
 | rows from the five CC BY 4.0 sources | CC BY 4.0, passed through, with the citation string above |
 | rows from `openrouter.models.catalog` | no grant upstream; no onward licence offered |
+| rows from `openrouter.providers.directory` | no grant upstream; no onward licence offered |
+| rows from `opencode.data.usage` | no grant upstream; no onward licence offered |
 
 Rows carry `source_id`, so which applies is determinable from the data.
 
-Checked 22 September 2026 against the `licence:` field of all six registry files.
+Checked 26 October 2026 against the `licence:` field of all eight registry files.

@@ -1,18 +1,21 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it."
 type: dataset
-title: "OpenRouter Usage History (wss-openrouter)"
+title: "OpenRouter and OpenCode Usage History (wss-openrouter)"
 abstract: >-
-  TODO: one paragraph on what this dataset captures, and why the history
-  would otherwise be lost.
+  Weekly point-in-time captures of OpenRouter's task mix, session economics,
+  benchmarks, model catalogue and provider directory, plus OpenCode's usage
+  telemetry: model and lab shares, session cost, cache ratio, retention and
+  geography. Captured because the publishers do not archive the windows these
+  endpoints expose.
 authors:
   - name: "neldivad"
     website: "https://github.com/neldivad"
   - name: "q3dresearch"
     website: "https://github.com/q3dresearch"
-# No `license:` field: CC BY 4.0 covers 5 of 6 sources; openrouter.models.catalog declares only the
-# platform terms and is not covered. CFF cannot express a subset, so no blanket
-# claim is made. See LICENSE-DATA for the per-source table
+# No `license:` field: CC BY 4.0 covers 5 of 8 sources; openrouter.models.catalog,
+# openrouter.providers.directory and opencode.data.usage state no licence grant, so no
+# blanket claim is made. See LICENSE-DATA for the per-source table
 # The CODE is MIT (see LICENSE); this file cites the DATASET.
 keywords:
   - git-scraping

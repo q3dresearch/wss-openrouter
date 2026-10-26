@@ -10,14 +10,29 @@ timestamp and a SHA-256 of exactly what came back.
 
 | source | publisher | cadence | status | last captured |
 | --- | --- | --- | --- | --- |
-| `openrouter.benchmarks.artificial-analysis` | OpenRouter | weekly | active | 2026-09-01 |
-| `openrouter.benchmarks.design-arena` | OpenRouter | weekly | active | 2026-09-01 |
-| `openrouter.benchmarks.openrouter` | OpenRouter | weekly | active | 2026-09-01 |
-| `openrouter.classifications.task` | OpenRouter | weekly | active | 2026-09-01 |
-| `openrouter.models.catalog` | OpenRouter | weekly | active | 2026-09-01 |
-| `openrouter.sessions.cost` | OpenRouter | weekly | active | 2026-09-01 |
+| `opencode.data.usage` | OpenCode | weekly | active | 2026-10-26 |
+| `openrouter.benchmarks.artificial-analysis` | OpenRouter | weekly | active | 2026-10-20 |
+| `openrouter.benchmarks.design-arena` | OpenRouter | weekly | active | 2026-10-20 |
+| `openrouter.benchmarks.openrouter` | OpenRouter | weekly | active | 2026-10-20 |
+| `openrouter.classifications.task` | OpenRouter | weekly | active | 2026-10-20 |
+| `openrouter.models.catalog` | OpenRouter | weekly | active | 2026-10-20 |
+| `openrouter.providers.directory` | OpenRouter | weekly | active | — |
+| `openrouter.sessions.cost` | OpenRouter | weekly | active | 2026-10-20 |
 
 ## Each source in full
+
+### `opencode.data.usage`
+
+**OpenCode** (first party) · weekly · active
+
+What coding-agent users actually run, by model and lab, with session cost, cache ratio, retention and geography. Tokens include input, output, reasoning and cached tokens; users and sessions are approximate distinct counts. Costs are average per OpenCode session at list prices, not billed revenue. The daily series is a rolling 56-day window and the snapshot sections are as of `updatedAt`, which is why this is a capture source rather than a link: the publisher does not archive yesterday's page. OpenCode is one client, not the market — read it as developer-agent behaviour, not a census of inference.
+
+- <https://opencode.ai/data/index.json>
+
+- **Licence / terms:** No explicit licence stated. Publisher requests citation: Cite OpenCode Data (opencode.ai/data) with the update time. Public aggregate usage data.
+- **Personal data:** none
+- **Publisher keeps history:** no — this source destroys its own history
+- **Last stored capture:** 2026-10-26T09:46:38Z · `raw/opencode.data.usage/2026/10/20261026T094638Z-9172930c3e75.json.gz` · sha256 `9172930c3e75…`
 
 ### `openrouter.benchmarks.artificial-analysis`
 
@@ -30,7 +45,7 @@ Composite intelligence, coding and agentic indices. Paired with openrouter.model
 - **Licence / terms:** CC BY 4.0 via OpenRouter; scores originate with Artificial Analysis (artificialanalysis.ai)
 - **Personal data:** none
 - **Publisher keeps history:** no — this source destroys its own history
-- **Last stored capture:** 2026-09-01T17:42:06Z · `raw/openrouter.benchmarks.artificial-analysis/2026/09/20260901T172535Z-2e072c9f9c88.json` · sha256 `2e072c9f9c88…`
+- **Last stored capture:** 2026-10-20T01:12:57Z · `raw/openrouter.benchmarks.artificial-analysis/2026/10/20261020T011257Z-be4b9e4dcc97.json.gz` · sha256 `be4b9e4dcc97…`
 
 ### `openrouter.benchmarks.design-arena`
 
@@ -43,7 +58,7 @@ Head-to-head ELO and win rates from design tournaments. Paired with openrouter.m
 - **Licence / terms:** CC BY 4.0 via OpenRouter; scores originate with Design Arena (www.designarena.ai)
 - **Personal data:** none
 - **Publisher keeps history:** no — this source destroys its own history
-- **Last stored capture:** 2026-09-01T17:42:03Z · `raw/openrouter.benchmarks.design-arena/2026/09/20260901T144819Z-8a5d5764b1de.json` · sha256 `8a5d5764b1de…`
+- **Last stored capture:** 2026-10-20T01:13:04Z · `raw/openrouter.benchmarks.design-arena/2026/10/20261020T011304Z-bb2debbe9ba8.json.gz` · sha256 `bb2debbe9ba8…`
 
 ### `openrouter.benchmarks.openrouter`
 
@@ -56,7 +71,7 @@ OpenRouter's own GPQA, tau-bench and web-search evaluations, with cost and laten
 - **Licence / terms:** CC BY 4.0 via OpenRouter; scores originate with OpenRouter's own evaluations
 - **Personal data:** none
 - **Publisher keeps history:** no — this source destroys its own history
-- **Last stored capture:** 2026-09-01T17:42:07Z · `raw/openrouter.benchmarks.openrouter/2026/09/20260901T172603Z-081505d81371.json` · sha256 `081505d81371…`
+- **Last stored capture:** 2026-10-20T01:12:56Z · `raw/openrouter.benchmarks.openrouter/2026/10/20261020T011256Z-3cc91ad75591.json.gz` · sha256 `3cc91ad75591…`
 
 ### `openrouter.classifications.task`
 
@@ -69,7 +84,7 @@ Demand composition rather than model popularity: which tasks (code generation, s
 - **Licence / terms:** CC BY 4.0 — cite: Source: OpenRouter (openrouter.ai/rankings), as of <as_of>.
 - **Personal data:** none
 - **Publisher keeps history:** no — this source destroys its own history
-- **Last stored capture:** 2026-09-01T17:42:05Z · `raw/openrouter.classifications.task/2026/09/20260901T144823Z-3e39cf29aaa6.json` · sha256 `3e39cf29aaa6…`
+- **Last stored capture:** 2026-10-20T01:13:07Z · `raw/openrouter.classifications.task/2026/10/20261020T011307Z-ef69eb77bc0e.json.gz` · sha256 `ef69eb77bc0e…`
 
 ### `openrouter.models.catalog`
 
@@ -82,7 +97,20 @@ A price index for inference, plus `hugging_face_id` on ~180 of 417 models — th
 - **Licence / terms:** public API; see https://openrouter.ai/terms
 - **Personal data:** none
 - **Publisher keeps history:** no — this source destroys its own history
-- **Last stored capture:** 2026-09-01T17:42:08Z · `raw/openrouter.models.catalog/2026/09/20260901T174208Z-b3489b4eb752.json` · sha256 `b3489b4eb752…`
+- **Last stored capture:** 2026-10-20T01:13:09Z · `raw/openrouter.models.catalog/2026/10/20261020T011309Z-55129826e2dd.json.gz` · sha256 `55129826e2dd…`
+
+### `openrouter.providers.directory`
+
+**OpenRouter** (redistribution) · weekly · active
+
+Provider metadata rather than model performance: headquarters, named datacenters, and the policy/status links a provider publishes. It answers a data-residency question only where the field is filled, and the useful finding is how often it is not — 84 of 114 providers name no datacenter. No date parameter and no archive, so this is a capture source.
+
+- <https://openrouter.ai/api/v1/providers>
+
+- **Licence / terms:** public API; see https://openrouter.ai/terms
+- **Personal data:** none
+- **Publisher keeps history:** no — this source destroys its own history
+- **Last stored capture:** none yet
 
 ### `openrouter.sessions.cost`
 
@@ -98,7 +126,7 @@ The unit economics of coding agents: median USD per session, split by turn range
 - **Licence / terms:** CC BY 4.0 — cite: Source: OpenRouter Data API, as of <as_of>.
 - **Personal data:** none
 - **Publisher keeps history:** no — this source destroys its own history
-- **Last stored capture:** 2026-09-01T17:42:14Z · `raw/openrouter.sessions.cost/2026/09/20260901T174214Z-9f44a2d129ac.json` · sha256 `9f44a2d129ac…`
+- **Last stored capture:** 2026-10-20T01:13:07Z · `raw/openrouter.sessions.cost/2026/10/20261020T011307Z-59d15ccec5c4.json.gz` · sha256 `59d15ccec5c4…`
 
 ## Reusing this data
 

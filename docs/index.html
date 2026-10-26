@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>OpenRouter Usage History (wss-openrouter)</title>
-<meta name="description" content="Point-in-time captures from 6 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.">
+<title>OpenRouter and OpenCode Usage History (wss-openrouter)</title>
+<meta name="description" content="Weekly point-in-time captures of OpenRouter&#x27;s task mix, session economics, benchmarks, model catalogue and provider directory, plus OpenCode&#x27;s usage telemetry: model and lab shares, session cost, cache ratio, retention and geography. Captured because the publishers do not archive the windows these e">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "name": "OpenRouter Usage History (wss-openrouter)",
-  "description": "Point-in-time captures from 6 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.",
+  "name": "OpenRouter and OpenCode Usage History (wss-openrouter)",
+  "description": "Weekly point-in-time captures of OpenRouter's task mix, session economics, benchmarks, model catalogue and provider directory, plus OpenCode's usage telemetry: model and lab shares, session cost, cache ratio, retention and geography. Captured because the publishers do not archive the windows these endpoints expose.",
   "url": "https://github.com/q3dresearch/wss-openrouter",
   "isAccessibleForFree": true,
   "keywords": [
@@ -38,8 +38,13 @@
       "contentUrl": "https://github.com/q3dresearch/wss-openrouter/tree/main/data"
     }
   ],
-  "temporalCoverage": "2026-09-01/2026-10-20",
+  "temporalCoverage": "2026-09-01/2026-10-26",
   "isBasedOn": [
+    {
+      "@type": "Dataset",
+      "name": "OpenCode",
+      "url": "https://opencode.ai/data/index.json"
+    },
     {
       "@type": "Dataset",
       "name": "OpenRouter",
@@ -68,6 +73,11 @@
     {
       "@type": "Dataset",
       "name": "OpenRouter",
+      "url": "https://openrouter.ai/api/v1/providers"
+    },
+    {
+      "@type": "Dataset",
+      "name": "OpenRouter",
       "url": "https://openrouter.ai/api/v1/datasets/session-cost?app_slug=claude-code"
     }
   ]
@@ -88,9 +98,9 @@
 </style>
 </head>
 <body>
-<h1>OpenRouter Usage History (wss-openrouter)</h1>
-<p>Point-in-time captures from 6 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.</p>
-<p class="cov">History held: <strong>2026-09-01</strong> to <strong>2026-10-20</strong>.</p>
+<h1>OpenRouter and OpenCode Usage History (wss-openrouter)</h1>
+<p>Weekly point-in-time captures of OpenRouter&#x27;s task mix, session economics, benchmarks, model catalogue and provider directory, plus OpenCode&#x27;s usage telemetry: model and lab shares, session cost, cache ratio, retention and geography. Captured because the publishers do not archive the windows these endpoints expose.</p>
+<p class="cov">History held: <strong>2026-09-01</strong> to <strong>2026-10-26</strong>.</p>
 
 
 <h2>Findings</h2>
@@ -100,31 +110,89 @@
     <figcaption><strong>Maturity</strong></figcaption>
   </figure>
   <figure>
+    <a href="charts/opencode-geography.svg"><img src="charts/opencode-geography.svg" alt="Opencode geography" loading="lazy"></a>
+    <figcaption><strong>Opencode geography</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/opencode-lab-share.svg"><img src="charts/opencode-lab-share.svg" alt="Opencode lab share" loading="lazy"></a>
+    <figcaption><strong>Opencode lab share</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/opencode-model-share.svg"><img src="charts/opencode-model-share.svg" alt="Opencode model share" loading="lazy"></a>
+    <figcaption><strong>Opencode model share</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/opencode-retention-vs-usage.svg"><img src="charts/opencode-retention-vs-usage.svg" alt="Opencode retention vs usage" loading="lazy"></a>
+    <figcaption><strong>Opencode retention vs usage</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/opencode-session-cost.svg"><img src="charts/opencode-session-cost.svg" alt="Opencode session cost" loading="lazy"></a>
+    <figcaption><strong>Opencode session cost</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/opencode-tokens-vs-spend.svg"><img src="charts/opencode-tokens-vs-spend.svg" alt="Opencode tokens vs spend" loading="lazy"></a>
+    <figcaption><strong>Opencode tokens vs spend</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/opencode-vs-openrouter.svg"><img src="charts/opencode-vs-openrouter.svg" alt="Opencode vs openrouter" loading="lazy"></a>
+    <figcaption><strong>Opencode vs openrouter</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/or-app-mix.svg"><img src="charts/or-app-mix.svg" alt="Or app mix" loading="lazy"></a>
+    <figcaption><strong>Or app mix</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/or-capability-vs-usage.svg"><img src="charts/or-capability-vs-usage.svg" alt="Or capability vs usage" loading="lazy"></a>
+    <figcaption><strong>Or capability vs usage</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/or-downloads-vs-use.svg"><img src="charts/or-downloads-vs-use.svg" alt="Or downloads vs use" loading="lazy"></a>
+    <figcaption><strong>Or downloads vs use</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/or-lab-share.svg"><img src="charts/or-lab-share.svg" alt="Or lab share" loading="lazy"></a>
+    <figcaption><strong>Or lab share</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/or-model-shelf-life.svg"><img src="charts/or-model-shelf-life.svg" alt="Or model shelf life" loading="lazy"></a>
+    <figcaption><strong>Or model shelf life</strong></figcaption>
+  </figure>
+  <figure>
+    <a href="charts/or-tokens-vs-spend.svg"><img src="charts/or-tokens-vs-spend.svg" alt="Or tokens vs spend" loading="lazy"></a>
+    <figcaption><strong>Or tokens vs spend</strong></figcaption>
+  </figure>
+  <figure>
     <a href="charts/price-capability.svg"><img src="charts/price-capability.svg" alt="What a point of intelligence costs" loading="lazy"></a>
     <figcaption><strong>What a point of intelligence costs</strong> — Scatter of model benchmark score against input price; colour is model family, marker area is token share, line is the efficient frontier.</figcaption>
   </figure>
   <figure>
+    <a href="charts/session-cost.svg"><img src="charts/session-cost.svg" alt="What an agent session costs" loading="lazy"></a>
+    <figcaption><strong>What an agent session costs</strong> — Line chart of median session cost by app, model and turn range, on a log scale; the spread at the longest published turn range is the finding.</figcaption>
+  </figure>
+  <figure>
     <a href="charts/task-contest.svg"><img src="charts/task-contest.svg" alt="Where the open doors are" loading="lazy"></a>
-    <figcaption><strong>Where the open doors are</strong> — Scatter of workload size against the leading model&#x27;s share of that workload.</figcaption>
+    <figcaption><strong>Where the open doors are</strong> — Scatter of workload size against the leading model&#x27;s share; bubble area is tokens per request indexed to the all-workload average.</figcaption>
   </figure>
   <figure>
     <a href="charts/task-leaders.svg"><img src="charts/task-leaders.svg" alt="Who leads each workload" loading="lazy"></a>
-    <figcaption><strong>Who leads each workload</strong> — Bar chart of the leading model&#x27;s share within each OpenRouter task.</figcaption>
+    <figcaption><strong>Who leads each workload</strong> — Small-multiple line charts of the leading model&#x27;s share of each OpenRouter workload over time, with lab-coloured markers and workload token share on a second axis.</figcaption>
   </figure>
   <figure>
     <a href="charts/task-mix.svg"><img src="charts/task-mix.svg" alt="What people actually ask models to do" loading="lazy"></a>
-    <figcaption><strong>What people actually ask models to do</strong> — Ranked bar chart of OpenRouter token share by task.</figcaption>
+    <figcaption><strong>What people actually ask models to do</strong> — Small-multiple trend charts of OpenRouter token share by workload, split by macro category.</figcaption>
   </figure>
 
 <h2>What is captured</h2>
 <table>
   <thead><tr><th>source</th><th>publisher</th><th>cadence</th><th>terms</th></tr></thead>
   <tbody>
+      <tr><td><code>opencode.data.usage</code></td><td>OpenCode</td><td>weekly</td><td>No explicit licence stated. Publisher requests citation: Cite OpenCode Data (opencode.ai/data) with the update time. Public aggregate usage data.</td></tr>
       <tr><td><code>openrouter.benchmarks.artificial-analysis</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 via OpenRouter; scores originate with Artificial Analysis (artificialanalysis.ai)</td></tr>
       <tr><td><code>openrouter.benchmarks.design-arena</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 via OpenRouter; scores originate with Design Arena (www.designarena.ai)</td></tr>
       <tr><td><code>openrouter.benchmarks.openrouter</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 via OpenRouter; scores originate with OpenRouter&#x27;s own evaluations</td></tr>
       <tr><td><code>openrouter.classifications.task</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 — cite: Source: OpenRouter (openrouter.ai/rankings), as of &lt;as_of&gt;.</td></tr>
       <tr><td><code>openrouter.models.catalog</code></td><td>OpenRouter</td><td>weekly</td><td>public API; see https://openrouter.ai/terms</td></tr>
+      <tr><td><code>openrouter.providers.directory</code></td><td>OpenRouter</td><td>weekly</td><td>public API; see https://openrouter.ai/terms</td></tr>
       <tr><td><code>openrouter.sessions.cost</code></td><td>OpenRouter</td><td>weekly</td><td>CC BY 4.0 — cite: Source: OpenRouter Data API, as of &lt;as_of&gt;.</td></tr>
   </tbody>
 </table>
@@ -137,7 +205,7 @@
 matching manifest row holds that <code>raw_ref</code> with the URL, the fetch
 timestamp and a SHA-256 of exactly what came back, so any number here traces to
 the bytes it came from.</p>
-<p>Cite this dataset by its repository and the date you took it from: <a href="https://github.com/q3dresearch/wss-openrouter">https://github.com/q3dresearch/wss-openrouter</a>, accessed 2026-10-20.</p>
+<p>Cite this dataset by its repository and the date you took it from: <a href="https://github.com/q3dresearch/wss-openrouter">https://github.com/q3dresearch/wss-openrouter</a>, accessed 2026-10-26.</p>
 
 <footer>
 <p>Repository code and captured data are licensed separately.

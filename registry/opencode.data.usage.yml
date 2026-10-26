@@ -1,0 +1,40 @@
+# OpenCode's own usage telemetry: the coding-agent side of the same question
+# OpenRouter answers from a router's side. The page recomputes every hour and
+# keeps only a rolling 56-day window, so last month's daily series is gone if
+# nobody captures it. Captured weekly, which overlaps the window eight times
+# and preserves any revision to a day that is still visible.
+source_id: opencode.data.usage
+status: active
+cadence: weekly
+schema_id: opencode-usage.v1
+
+publisher: OpenCode
+publisher_tier: first_party
+destroys_own_history: true
+licence: "No explicit licence stated. Publisher requests citation: Cite OpenCode Data (opencode.ai/data) with the update time. Public aggregate usage data."
+personal_data: none
+storage: git
+
+notes: >-
+  What coding-agent users actually run, by model and lab, with session cost,
+  cache ratio, retention and geography. Tokens include input, output,
+  reasoning and cached tokens; users and sessions are approximate distinct
+  counts. Costs are average per OpenCode session at list prices, not billed
+  revenue. The daily series is a rolling 56-day window and the snapshot
+  sections are as of `updatedAt`, which is why this is a capture source
+  rather than a link: the publisher does not archive yesterday's page.
+  OpenCode is one client, not the market — read it as developer-agent
+  behaviour, not a census of inference.
+
+endpoints:
+  - url: "https://opencode.ai/data/index.json"
+    delay_seconds: 2
+    timeout_seconds: 30
+
+gates:
+  expect_status: 200
+  min_bytes: 50000
+  content_type_any: [json]
+  must_contain: ["dailyTokens", "marketShare", "updatedAt"]
+  must_not_contain: ["Access Denied"]
+  max_shrink_pct: 50

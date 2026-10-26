@@ -1,0 +1,2 @@
+source_id,url,fetched_at,http_status,content_type,content_length,content_sha256,etag,last_modified,outcome,raw_ref,reason,warnings
+opencode.data.usage,https://opencode.ai/data/index.json,2026-10-26T09:46:38Z,200,application/json,152037,9172930c3e75ba908be86e175de5affc3f655f1e6b7379490ad411ed1d377235,,"Mon, 26 Oct 2026 09:28:49 GMT",first_capture,raw/opencode.data.usage/2026/10/20261026T094638Z-9172930c3e75.json.gz,,
