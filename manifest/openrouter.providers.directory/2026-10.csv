@@ -1,0 +1,2 @@
+source_id,url,fetched_at,http_status,content_type,content_length,content_sha256,etag,last_modified,outcome,raw_ref,reason,warnings
+openrouter.providers.directory,https://openrouter.ai/api/v1/providers,2026-10-27T01:36:18Z,200,application/json,26615,746884f80678c4e430c5e29fbdb1148e4c3ba072ba752a7eead776e6380b781f,,,first_capture,raw/openrouter.providers.directory/2026/10/20261027T013618Z-746884f80678.json.gz,,
