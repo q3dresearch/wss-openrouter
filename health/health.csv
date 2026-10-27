@@ -1,9 +1,9 @@
 source_id,first_success_at,last_success_at,last_attempt_at,consecutive_failures,consecutive_throttled,expected_interval_h,staleness_h,gate_fail_rate_28d,attempts_28d,status
-openrouter.providers.directory,,,,0,0,168,,,0,active
-openrouter.benchmarks.artificial-analysis,2026-09-01T14:47:56Z,2026-10-20T01:12:57Z,2026-10-20T01:12:57Z,0,0,168,153.4,0.000,4,active
-openrouter.benchmarks.design-arena,2026-09-01T14:48:19Z,2026-10-20T01:13:04Z,2026-10-20T01:13:04Z,0,0,168,153.4,0.000,4,active
-openrouter.benchmarks.openrouter,2026-09-01T17:26:03Z,2026-10-20T01:12:56Z,2026-10-20T01:12:56Z,0,0,168,153.4,0.000,4,active
-openrouter.classifications.task,2026-09-01T14:48:23Z,2026-10-20T01:13:07Z,2026-10-20T01:13:07Z,0,0,168,153.4,0.000,4,active
-openrouter.models.catalog,2026-09-01T14:48:26Z,2026-10-20T01:13:09Z,2026-10-20T01:13:09Z,0,0,168,153.4,0.000,4,active
-openrouter.sessions.cost,2026-09-01T17:26:13Z,2026-10-20T01:13:07Z,2026-10-20T01:13:07Z,0,0,168,153.4,0.000,16,active
-opencode.data.usage,2026-10-26T09:46:38Z,2026-10-26T09:46:38Z,2026-10-26T09:46:38Z,0,0,168,0.9,0.000,1,active
+opencode.data.usage,2026-10-26T09:46:38Z,2026-10-27T01:36:20Z,2026-10-27T01:36:20Z,0,0,168,0.8,0.000,2,active
+openrouter.benchmarks.artificial-analysis,2026-09-01T14:47:56Z,2026-10-27T01:36:18Z,2026-10-27T01:36:18Z,0,0,168,0.8,0.000,4,active
+openrouter.benchmarks.design-arena,2026-09-01T14:48:19Z,2026-10-27T01:36:18Z,2026-10-27T01:36:18Z,0,0,168,0.8,0.000,4,active
+openrouter.benchmarks.openrouter,2026-09-01T17:26:03Z,2026-10-27T01:36:17Z,2026-10-27T01:36:17Z,0,0,168,0.8,0.000,4,active
+openrouter.classifications.task,2026-09-01T14:48:23Z,2026-10-27T01:36:21Z,2026-10-27T01:36:21Z,0,0,168,0.8,0.000,4,active
+openrouter.models.catalog,2026-09-01T14:48:26Z,2026-10-27T01:36:23Z,2026-10-27T01:36:23Z,0,0,168,0.8,0.000,4,active
+openrouter.providers.directory,2026-10-27T01:36:18Z,2026-10-27T01:36:18Z,2026-10-27T01:36:18Z,0,0,168,0.8,0.000,1,active
+openrouter.sessions.cost,2026-09-01T17:26:13Z,2026-10-27T01:36:27Z,2026-10-27T01:36:27Z,0,0,168,0.8,0.000,16,active
