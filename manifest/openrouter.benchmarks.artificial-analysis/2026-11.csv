@@ -1,0 +1,2 @@
+source_id,url,fetched_at,http_status,content_type,content_length,content_sha256,etag,last_modified,outcome,raw_ref,reason,warnings
+openrouter.benchmarks.artificial-analysis,https://openrouter.ai/api/v1/benchmarks?source=artificial-analysis&max_results=100,2026-11-03T03:40:46Z,200,application/json,24689,ece9b8c6b19ae079cfecd1a7fd8e23fdebec8e0a29475af0ad16d20824b9cc68,,,changed,raw/openrouter.benchmarks.artificial-analysis/2026/11/20261103T034046Z-ece9b8c6b19a.json.gz,,

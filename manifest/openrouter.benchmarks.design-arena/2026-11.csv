@@ -1,0 +1,2 @@
+source_id,url,fetched_at,http_status,content_type,content_length,content_sha256,etag,last_modified,outcome,raw_ref,reason,warnings
+openrouter.benchmarks.design-arena,https://openrouter.ai/api/v1/benchmarks?source=design-arena&max_results=100,2026-11-03T03:40:48Z,200,application/json,36327,4fbc28cdf3461f7a7398f95bff3f829d583ababd116bf0ee172cab574b319221,,,changed,raw/openrouter.benchmarks.design-arena/2026/11/20261103T034048Z-4fbc28cdf346.json.gz,,
