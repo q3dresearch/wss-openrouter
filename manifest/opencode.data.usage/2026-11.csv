@@ -1,2 +1,3 @@
 source_id,url,fetched_at,http_status,content_type,content_length,content_sha256,etag,last_modified,outcome,raw_ref,reason,warnings
 opencode.data.usage,https://opencode.ai/data/index.json,2026-11-03T03:40:49Z,200,application/json,151065,abe8c23eb4e029c56005a039134e30277a47724a4f471149263f7084e1814acf,,"Tue, 03 Nov 2026 03:08:34 GMT",changed,raw/opencode.data.usage/2026/11/20261103T034049Z-abe8c23eb4e0.json.gz,,
+opencode.data.usage,https://opencode.ai/data/index.json,2026-11-10T04:17:28Z,200,application/json,151738,0e40ec7b68da80b08279d0326ed72c2dd2f55fa3764738aa324cf1424a4f6d4e,,"Tue, 10 Nov 2026 04:09:43 GMT",changed,raw/opencode.data.usage/2026/11/20261110T041728Z-0e40ec7b68da.json.gz,,

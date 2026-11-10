@@ -1,2 +1,3 @@
 source_id,url,fetched_at,http_status,content_type,content_length,content_sha256,etag,last_modified,outcome,raw_ref,reason,warnings
 openrouter.models.catalog,https://openrouter.ai/api/v1/models,2026-11-03T03:40:53Z,200,application/json,805080,5be3c09afbc33262abe273e73a3165084cb1213e86b97111961b18ed0a7b6be4,,,changed,raw/openrouter.models.catalog/2026/11/20261103T034053Z-5be3c09afbc3.json.gz,,
+openrouter.models.catalog,https://openrouter.ai/api/v1/models,2026-11-10T04:17:32Z,200,application/json,836217,319c506af02c968fd45352fd7ad2a0181a8df0250b8fa235888e77600ad5d06f,,,changed,raw/openrouter.models.catalog/2026/11/20261110T041732Z-319c506af02c.json.gz,,
