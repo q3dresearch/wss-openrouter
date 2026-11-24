@@ -3,9 +3,9 @@
 <desc>Small-multiple trend charts of OpenRouter token share by workload, split by macro category.</desc>
 <rect width="1060.0" height="820.0" fill="#fcfcfb"/>
 <text x="24.0" y="30.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">What people actually ask models to do</text>
-<text x="24.0" y="50.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12" fill="#52514e" text-anchor="start" font-weight="normal" style="">Share of all OpenRouter tokens over 13 weekly captures, split by macro category</text>
+<text x="24.0" y="50.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12" fill="#52514e" text-anchor="start" font-weight="normal" style="">Share of all OpenRouter tokens over 14 weekly captures, split by macro category</text>
 <text x="24.0" y="70.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#898781" text-anchor="start" font-weight="normal" style="">Each line is one workload. The y scale differs by panel; the current share is labelled at the right.</text>
-<text x="24.0" y="90.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12" fill="#52514e" text-anchor="start" font-weight="600" style="">Code 29% · Agent 32% · General 32% · Data 6%</text>
+<text x="24.0" y="90.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12" fill="#52514e" text-anchor="start" font-weight="600" style="">Code 32% · Agent 35% · General 27% · Data 6%</text>
 <circle cx="29.0" cy="110" r="5" fill="#2a78d6"/>
 <text x="39.0" y="114.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" style="">Code</text>
 <circle cx="88.4" cy="110" r="5" fill="#eb6834"/>
@@ -14,7 +14,7 @@
 <text x="164.4" y="114.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" style="">General</text>
 <circle cx="233.6" cy="110" r="5" fill="#4a3aa7"/>
 <text x="243.6" y="114.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" style="">Data</text>
-<text x="72.0" y="136.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" fill="#2a78d6" text-anchor="start" font-weight="600" style="">Code · 29.2% of tokens</text>
+<text x="72.0" y="136.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" fill="#2a78d6" text-anchor="start" font-weight="600" style="">Code · 32.0% of tokens</text>
 <line x1="72.0" y1="154.0" x2="72.0" y2="330.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="72.0" y1="330.0" x2="389.0" y2="330.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="72.0" y1="330.0" x2="389.0" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
@@ -24,36 +24,37 @@
 <line x1="72.0" y1="154.0" x2="389.0" y2="154.0" stroke="#e1e0d9" stroke-width="1"/>
 <text x="64.0" y="157.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">16.7%</text>
 <line x1="72.0" y1="154.0" x2="72.0" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="98.4" y1="154.0" x2="98.4" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="124.8" y1="154.0" x2="124.8" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="151.2" y1="154.0" x2="151.2" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="177.7" y1="154.0" x2="177.7" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="204.1" y1="154.0" x2="204.1" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="230.5" y1="154.0" x2="230.5" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="256.9" y1="154.0" x2="256.9" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="283.3" y1="154.0" x2="283.3" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="309.8" y1="154.0" x2="309.8" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="336.2" y1="154.0" x2="336.2" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="362.6" y1="154.0" x2="362.6" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="96.4" y1="154.0" x2="96.4" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="120.8" y1="154.0" x2="120.8" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="145.2" y1="154.0" x2="145.2" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="169.5" y1="154.0" x2="169.5" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="193.9" y1="154.0" x2="193.9" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="218.3" y1="154.0" x2="218.3" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="242.7" y1="154.0" x2="242.7" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="267.1" y1="154.0" x2="267.1" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="291.5" y1="154.0" x2="291.5" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="315.8" y1="154.0" x2="315.8" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="340.2" y1="154.0" x2="340.2" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="364.6" y1="154.0" x2="364.6" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
 <line x1="389.0" y1="154.0" x2="389.0" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
 <text x="230.5" y="348.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="middle" font-weight="normal" style="">trailing 7 days</text>
-<polyline points="72.0,198.4 98.4,188.9 124.8,185.7 151.2,197.3 177.7,201.5 204.1,202.6 230.5,204.7 256.9,199.4 283.3,232.1 309.8,236.3 336.2,238.4 362.6,226.8 389.0,235.2" fill="none" stroke="#2a78d6" stroke-width="2.1" stroke-opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="389.0" cy="235.2" r="3.4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="72.0,248.9 98.4,253.1 124.8,252.1 151.2,252.1 177.7,258.4 204.1,254.2 230.5,257.3 256.9,261.6 283.3,270.0 309.8,274.2 336.2,274.2 362.6,265.8 389.0,273.1" fill="none" stroke="#2a78d6" stroke-width="2.1" stroke-opacity="0.79" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="389.0" cy="273.1" r="3.4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="72.0,274.2 98.4,270.0 124.8,267.9 151.2,267.9 177.7,267.9 204.1,271.0 230.5,272.1 256.9,278.4 283.3,278.4 309.8,279.5 336.2,281.6 362.6,280.5 389.0,280.5" fill="none" stroke="#2a78d6" stroke-width="2.1" stroke-opacity="0.63" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="389.0" cy="280.5" r="3.4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="72.0,304.7 98.4,303.7 124.8,303.7 151.2,300.5 177.7,295.3 204.1,292.1 230.5,301.6 256.9,301.6 283.3,299.5 309.8,299.5 336.2,300.5 362.6,297.4 389.0,288.9" fill="none" stroke="#2a78d6" stroke-width="2.1" stroke-opacity="0.47" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="389.0" cy="288.9" r="3.4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
-<line x1="391.0" y1="235.2" x2="396.0" y2="235.2" stroke="#c3c2b7" stroke-width="1"/>
-<text x="399.0" y="238.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Code · General impl  9.0%</text>
-<line x1="391.0" y1="273.1" x2="396.0" y2="273.1" stroke="#c3c2b7" stroke-width="1"/>
-<text x="399.0" y="276.6" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Code · Debugging  5.4%</text>
-<line x1="391.0" y1="280.5" x2="396.0" y2="288.1" stroke="#c3c2b7" stroke-width="1"/>
-<text x="399.0" y="291.6" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Code · File read write  4.7%</text>
-<line x1="391.0" y1="288.9" x2="396.0" y2="303.1" stroke="#c3c2b7" stroke-width="1"/>
-<text x="399.0" y="306.6" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Code · Review security  3.9%</text>
-<text x="571.0" y="136.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" fill="#eb6834" text-anchor="start" font-weight="600" style="">Agent · 32.0% of tokens</text>
+<polyline points="72.0,198.4 96.4,188.9 120.8,185.7 145.2,197.3 169.5,201.5 193.9,202.6 218.3,204.7 242.7,199.4 267.1,232.1 291.5,236.3 315.8,238.4 340.2,226.8 364.6,235.2 389.0,226.8" fill="none" stroke="#2a78d6" stroke-width="2.1" stroke-opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="389.0" cy="226.8" r="3.4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="72.0,274.2 96.4,270.0 120.8,267.9 145.2,267.9 169.5,267.9 193.9,271.0 218.3,272.1 242.7,278.4 267.1,278.4 291.5,279.5 315.8,281.6 340.2,280.5 364.6,280.5 389.0,264.7" fill="none" stroke="#2a78d6" stroke-width="2.1" stroke-opacity="0.79" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="389.0" cy="264.7" r="3.4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="72.0,248.9 96.4,253.1 120.8,252.1 145.2,252.1 169.5,258.4 193.9,254.2 218.3,257.3 242.7,261.6 267.1,270.0 291.5,274.2 315.8,274.2 340.2,265.8 364.6,273.1 389.0,270.0" fill="none" stroke="#2a78d6" stroke-width="2.1" stroke-opacity="0.63" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="389.0" cy="270.0" r="3.4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="72.0,304.7 96.4,303.7 120.8,303.7 145.2,300.5 169.5,295.3 193.9,292.1 218.3,301.6 242.7,301.6 267.1,299.5 291.5,299.5 315.8,300.5 340.2,297.4 364.6,288.9 389.0,298.4" fill="none" stroke="#2a78d6" stroke-width="2.1" stroke-opacity="0.47" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="389.0" cy="298.4" r="3.4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="391.0" y1="226.8" x2="396.0" y2="226.8" stroke="#c3c2b7" stroke-width="1"/>
+<text x="399.0" y="230.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Code · General impl  9.8%</text>
+<line x1="391.0" y1="264.7" x2="396.0" y2="264.7" stroke="#c3c2b7" stroke-width="1"/>
+<text x="399.0" y="268.2" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Code · File read write  6.2%</text>
+<line x1="391.0" y1="270.0" x2="396.0" y2="279.7" stroke="#c3c2b7" stroke-width="1"/>
+<text x="399.0" y="283.2" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Code · Debugging  5.7%</text>
+<line x1="391.0" y1="298.4" x2="396.0" y2="298.4" stroke="#c3c2b7" stroke-width="1"/>
+<text x="399.0" y="301.9" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Code · Review security  3.0%</text>
+<text x="571.0" y="136.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" fill="#eb6834" text-anchor="start" font-weight="600" style="">Agent · 34.8% of tokens</text>
 <line x1="571.0" y1="154.0" x2="571.0" y2="330.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="571.0" y1="330.0" x2="888.0" y2="330.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="571.0" y1="330.0" x2="888.0" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
@@ -63,36 +64,37 @@
 <line x1="571.0" y1="154.0" x2="888.0" y2="154.0" stroke="#e1e0d9" stroke-width="1"/>
 <text x="563.0" y="157.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">29.9%</text>
 <line x1="571.0" y1="154.0" x2="571.0" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="597.4" y1="154.0" x2="597.4" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="623.8" y1="154.0" x2="623.8" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="650.2" y1="154.0" x2="650.2" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="676.7" y1="154.0" x2="676.7" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="703.1" y1="154.0" x2="703.1" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="729.5" y1="154.0" x2="729.5" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="755.9" y1="154.0" x2="755.9" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="782.3" y1="154.0" x2="782.3" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="808.8" y1="154.0" x2="808.8" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="835.2" y1="154.0" x2="835.2" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="861.6" y1="154.0" x2="861.6" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="595.4" y1="154.0" x2="595.4" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="619.8" y1="154.0" x2="619.8" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="644.2" y1="154.0" x2="644.2" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="668.5" y1="154.0" x2="668.5" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="692.9" y1="154.0" x2="692.9" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="717.3" y1="154.0" x2="717.3" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="741.7" y1="154.0" x2="741.7" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="766.1" y1="154.0" x2="766.1" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="790.5" y1="154.0" x2="790.5" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="814.8" y1="154.0" x2="814.8" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="839.2" y1="154.0" x2="839.2" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="863.6" y1="154.0" x2="863.6" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
 <line x1="888.0" y1="154.0" x2="888.0" y2="330.0" stroke="#e1e0d9" stroke-width="1"/>
 <text x="729.5" y="348.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="middle" font-weight="normal" style="">trailing 7 days</text>
-<polyline points="571.0,191.6 597.4,187.5 623.8,186.3 650.2,186.3 676.7,185.7 703.1,188.7 729.5,191.6 755.9,200.5 782.3,198.7 808.8,196.3 835.2,205.8 861.6,201.0 888.0,202.8" fill="none" stroke="#eb6834" stroke-width="2.1" stroke-opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="888.0" cy="202.8" r="3.4" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="571.0,288.2 597.4,290.0 623.8,290.5 650.2,291.1 676.7,285.2 703.1,282.3 729.5,281.1 755.9,286.4 782.3,284.1 808.8,281.7 835.2,285.2 861.6,284.1 888.0,285.2" fill="none" stroke="#eb6834" stroke-width="2.1" stroke-opacity="0.79" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="888.0" cy="285.2" r="3.4" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="571.0,322.9 597.4,323.5 623.8,323.5 650.2,322.9 676.7,322.9 703.1,322.3 729.5,321.8 755.9,322.3 782.3,322.3 808.8,322.9 835.2,322.9 861.6,322.3 888.0,322.9" fill="none" stroke="#eb6834" stroke-width="2.1" stroke-opacity="0.63" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="888.0" cy="322.9" r="3.4" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="571.0,324.7 597.4,324.7 623.8,324.7 650.2,325.3 676.7,324.7 703.1,325.3 729.5,325.3 755.9,325.3 782.3,324.7 808.8,325.3 835.2,325.3 861.6,325.3 888.0,324.7" fill="none" stroke="#eb6834" stroke-width="2.1" stroke-opacity="0.47" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="888.0" cy="324.7" r="3.4" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
-<line x1="890.0" y1="202.8" x2="895.0" y2="192.9" stroke="#c3c2b7" stroke-width="1"/>
-<text x="898.0" y="196.4" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Agent · Workflow executio  21.6%</text>
-<line x1="890.0" y1="285.2" x2="895.0" y2="275.3" stroke="#c3c2b7" stroke-width="1"/>
-<text x="898.0" y="278.8" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Agent · Multi step planni  7.6%</text>
-<line x1="890.0" y1="322.9" x2="895.0" y2="313.0" stroke="#c3c2b7" stroke-width="1"/>
-<text x="898.0" y="316.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Agent · Tool dispatch  1.2%</text>
-<line x1="890.0" y1="324.7" x2="895.0" y2="328.0" stroke="#c3c2b7" stroke-width="1"/>
-<text x="898.0" y="331.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Agent · Web search  0.9%</text>
-<text x="72.0" y="438.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" fill="#1baf7a" text-anchor="start" font-weight="600" style="">General · 32.4% of tokens</text>
+<polyline points="571.0,191.6 595.4,187.5 619.8,186.3 644.2,186.3 668.5,185.7 692.9,188.7 717.3,191.6 741.7,200.5 766.1,198.7 790.5,196.3 814.8,205.8 839.2,201.0 863.6,202.8 888.0,186.9" fill="none" stroke="#eb6834" stroke-width="2.1" stroke-opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="888.0" cy="186.9" r="3.4" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="571.0,288.2 595.4,290.0 619.8,290.5 644.2,291.1 668.5,285.2 692.9,282.3 717.3,281.1 741.7,286.4 766.1,284.1 790.5,281.7 814.8,285.2 839.2,284.1 863.6,285.2 888.0,284.7" fill="none" stroke="#eb6834" stroke-width="2.1" stroke-opacity="0.79" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="888.0" cy="284.7" r="3.4" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="571.0,322.9 595.4,323.5 619.8,323.5 644.2,322.9 668.5,322.9 692.9,322.3 717.3,321.8 741.7,322.3 766.1,322.3 790.5,322.9 814.8,322.9 839.2,322.3 863.6,322.9 888.0,322.3" fill="none" stroke="#eb6834" stroke-width="2.1" stroke-opacity="0.63" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="888.0" cy="322.3" r="3.4" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="571.0,324.7 595.4,324.7 619.8,324.7 644.2,325.3 668.5,324.7 692.9,325.3 717.3,325.3 741.7,325.3 766.1,324.7 790.5,325.3 814.8,325.3 839.2,325.3 863.6,324.7 888.0,325.3" fill="none" stroke="#eb6834" stroke-width="2.1" stroke-opacity="0.47" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="888.0" cy="325.3" r="3.4" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="890.0" y1="186.9" x2="895.0" y2="177.6" stroke="#c3c2b7" stroke-width="1"/>
+<text x="898.0" y="181.1" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Agent · Workflow executio  24.3%</text>
+<line x1="890.0" y1="284.7" x2="895.0" y2="275.3" stroke="#c3c2b7" stroke-width="1"/>
+<text x="898.0" y="278.8" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Agent · Multi step planni  7.7%</text>
+<line x1="890.0" y1="322.3" x2="895.0" y2="313.0" stroke="#c3c2b7" stroke-width="1"/>
+<text x="898.0" y="316.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Agent · Tool dispatch  1.3%</text>
+<line x1="890.0" y1="325.3" x2="895.0" y2="328.0" stroke="#c3c2b7" stroke-width="1"/>
+<text x="898.0" y="331.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Agent · Web search  0.8%</text>
+<text x="72.0" y="438.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" fill="#1baf7a" text-anchor="start" font-weight="600" style="">General · 26.8% of tokens</text>
 <line x1="72.0" y1="456.0" x2="72.0" y2="632.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="72.0" y1="632.0" x2="389.0" y2="632.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="72.0" y1="632.0" x2="389.0" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
@@ -102,40 +104,41 @@
 <line x1="72.0" y1="456.0" x2="389.0" y2="456.0" stroke="#e1e0d9" stroke-width="1"/>
 <text x="64.0" y="459.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">16.0%</text>
 <line x1="72.0" y1="456.0" x2="72.0" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="98.4" y1="456.0" x2="98.4" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="124.8" y1="456.0" x2="124.8" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="151.2" y1="456.0" x2="151.2" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="177.7" y1="456.0" x2="177.7" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="204.1" y1="456.0" x2="204.1" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="230.5" y1="456.0" x2="230.5" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="256.9" y1="456.0" x2="256.9" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="283.3" y1="456.0" x2="283.3" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="309.8" y1="456.0" x2="309.8" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="336.2" y1="456.0" x2="336.2" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="362.6" y1="456.0" x2="362.6" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="96.4" y1="456.0" x2="96.4" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="120.8" y1="456.0" x2="120.8" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="145.2" y1="456.0" x2="145.2" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="169.5" y1="456.0" x2="169.5" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="193.9" y1="456.0" x2="193.9" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="218.3" y1="456.0" x2="218.3" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="242.7" y1="456.0" x2="242.7" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="267.1" y1="456.0" x2="267.1" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="291.5" y1="456.0" x2="291.5" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="315.8" y1="456.0" x2="315.8" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="340.2" y1="456.0" x2="340.2" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="364.6" y1="456.0" x2="364.6" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
 <line x1="389.0" y1="456.0" x2="389.0" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
 <text x="230.5" y="650.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="middle" font-weight="normal" style="">trailing 7 days</text>
-<polyline points="72.0,571.4 98.4,570.3 124.8,572.5 151.2,569.2 177.7,567.0 204.1,559.3 230.5,552.7 256.9,556.0 283.3,530.7 309.8,508.7 336.2,487.7 362.6,517.5 389.0,501.0" fill="none" stroke="#1baf7a" stroke-width="2.1" stroke-opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="389.0" cy="501.0" r="3.4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="72.0,605.6 98.4,606.7 124.8,606.7 151.2,606.7 177.7,605.6 204.1,607.8 230.5,608.9 256.9,595.7 283.3,591.3 309.8,593.5 336.2,590.2 362.6,585.7 389.0,590.2" fill="none" stroke="#1baf7a" stroke-width="2.1" stroke-opacity="0.79" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="389.0" cy="590.2" r="3.4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="72.0,619.9 98.4,621.0 124.8,621.0 151.2,619.9 177.7,618.8 204.1,621.0 230.5,621.0 256.9,599.0 283.3,594.6 309.8,595.7 336.2,592.4 362.6,591.3 389.0,591.3" fill="none" stroke="#1baf7a" stroke-width="2.1" stroke-opacity="0.63" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="389.0" cy="591.3" r="3.4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="72.0,591.3 98.4,595.7 124.8,596.8 151.2,597.9 177.7,600.1 204.1,600.1 230.5,602.3 256.9,601.2 283.3,600.1 309.8,601.2 336.2,603.4 362.6,603.4 389.0,601.2" fill="none" stroke="#1baf7a" stroke-width="2.1" stroke-opacity="0.47" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="389.0" cy="601.2" r="3.4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
-<line x1="391.0" y1="501.0" x2="396.0" y2="501.0" stroke="#c3c2b7" stroke-width="1"/>
-<text x="399.0" y="504.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Classification tagging  11.9%</text>
-<line x1="391.0" y1="590.2" x2="396.0" y2="590.2" stroke="#c3c2b7" stroke-width="1"/>
-<text x="399.0" y="593.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Qa knowledge  3.8%</text>
-<line x1="391.0" y1="591.3" x2="396.0" y2="605.2" stroke="#c3c2b7" stroke-width="1"/>
-<text x="399.0" y="608.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Summarization  3.7%</text>
-<line x1="391.0" y1="601.2" x2="396.0" y2="620.2" stroke="#c3c2b7" stroke-width="1"/>
-<text x="399.0" y="623.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Roleplay fiction  2.8%</text>
+<polyline points="72.0,571.4 96.4,570.3 120.8,572.5 145.2,569.2 169.5,567.0 193.9,559.3 218.3,552.7 242.7,556.0 267.1,530.7 291.5,508.7 315.8,487.7 340.2,517.5 364.6,501.0 389.0,520.8" fill="none" stroke="#1baf7a" stroke-width="2.1" stroke-opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="389.0" cy="520.8" r="3.4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="72.0,607.8 96.4,605.6 120.8,605.6 145.2,607.8 169.5,605.6 193.9,607.8 218.3,602.3 242.7,600.1 267.1,599.0 291.5,605.6 315.8,607.8 340.2,604.5 364.6,604.5 389.0,599.0" fill="none" stroke="#1baf7a" stroke-width="2.1" stroke-opacity="0.79" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="389.0" cy="599.0" r="3.4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="72.0,595.7 96.4,599.0 120.8,600.1 145.2,599.0 169.5,599.0 193.9,603.4 218.3,605.6 242.7,606.7 267.1,605.6 291.5,607.8 315.8,608.9 340.2,607.8 364.6,607.8 389.0,603.4" fill="none" stroke="#1baf7a" stroke-width="2.1" stroke-opacity="0.63" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="389.0" cy="603.4" r="3.4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="72.0,605.6 96.4,606.7 120.8,606.7 145.2,606.7 169.5,605.6 193.9,607.8 218.3,608.9 242.7,595.7 267.1,591.3 291.5,593.5 315.8,590.2 340.2,585.7 364.6,590.2 389.0,606.7" fill="none" stroke="#1baf7a" stroke-width="2.1" stroke-opacity="0.47" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="389.0" cy="606.7" r="3.4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="391.0" y1="520.8" x2="396.0" y2="520.8" stroke="#c3c2b7" stroke-width="1"/>
+<text x="399.0" y="524.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Classification tagging  10.1%</text>
+<line x1="391.0" y1="599.0" x2="396.0" y2="599.0" stroke="#c3c2b7" stroke-width="1"/>
+<text x="399.0" y="602.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Content writing  3.0%</text>
+<line x1="391.0" y1="603.4" x2="396.0" y2="614.0" stroke="#c3c2b7" stroke-width="1"/>
+<text x="399.0" y="617.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Conversational reply  2.6%</text>
+<line x1="391.0" y1="606.7" x2="396.0" y2="629.0" stroke="#c3c2b7" stroke-width="1"/>
+<text x="399.0" y="632.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Qa knowledge  2.3%</text>
 <text x="72.0" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">08-31</text>
-<text x="124.8" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">09-07</text>
-<text x="177.7" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">09-21</text>
-<text x="230.5" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">10-05</text>
-<text x="389.0" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">11-16</text>
+<text x="120.8" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">09-07</text>
+<text x="169.5" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">09-21</text>
+<text x="218.3" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">10-05</text>
+<text x="389.0" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">11-23</text>
 <text x="571.0" y="438.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" fill="#4a3aa7" text-anchor="start" font-weight="600" style="">Data · 6.4% of tokens</text>
 <line x1="571.0" y1="456.0" x2="571.0" y2="632.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="571.0" y1="632.0" x2="888.0" y2="632.0" stroke="#c3c2b7" stroke-width="1"/>
@@ -146,33 +149,34 @@
 <line x1="571.0" y1="456.0" x2="888.0" y2="456.0" stroke="#e1e0d9" stroke-width="1"/>
 <text x="563.0" y="459.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">6.7%</text>
 <line x1="571.0" y1="456.0" x2="571.0" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="597.4" y1="456.0" x2="597.4" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="623.8" y1="456.0" x2="623.8" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="650.2" y1="456.0" x2="650.2" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="676.7" y1="456.0" x2="676.7" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="703.1" y1="456.0" x2="703.1" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="729.5" y1="456.0" x2="729.5" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="755.9" y1="456.0" x2="755.9" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="782.3" y1="456.0" x2="782.3" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="808.8" y1="456.0" x2="808.8" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="835.2" y1="456.0" x2="835.2" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="861.6" y1="456.0" x2="861.6" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="595.4" y1="456.0" x2="595.4" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="619.8" y1="456.0" x2="619.8" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="644.2" y1="456.0" x2="644.2" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="668.5" y1="456.0" x2="668.5" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="692.9" y1="456.0" x2="692.9" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="717.3" y1="456.0" x2="717.3" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="741.7" y1="456.0" x2="741.7" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="766.1" y1="456.0" x2="766.1" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="790.5" y1="456.0" x2="790.5" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="814.8" y1="456.0" x2="814.8" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="839.2" y1="456.0" x2="839.2" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="863.6" y1="456.0" x2="863.6" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
 <line x1="888.0" y1="456.0" x2="888.0" y2="632.0" stroke="#e1e0d9" stroke-width="1"/>
 <text x="729.5" y="650.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="middle" font-weight="normal" style="">trailing 7 days</text>
-<polyline points="571.0,529.7 597.4,514.0 623.8,514.0 650.2,514.0 676.7,508.7 703.1,508.7 729.5,508.7 755.9,503.5 782.3,493.0 808.8,487.7 835.2,487.7 861.6,506.1 888.0,500.9" fill="none" stroke="#4a3aa7" stroke-width="2.1" stroke-opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="888.0" cy="500.9" r="3.4" fill="#4a3aa7" stroke="#fcfcfb" stroke-width="1.5"/>
-<polyline points="571.0,587.4 597.4,587.4 623.8,587.4 650.2,584.8 676.7,592.7 703.1,597.9 729.5,584.8 755.9,582.2 782.3,582.2 808.8,582.2 835.2,576.9 861.6,592.7 888.0,592.7" fill="none" stroke="#4a3aa7" stroke-width="2.1" stroke-opacity="0.79" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="888.0" cy="592.7" r="3.4" fill="#4a3aa7" stroke="#fcfcfb" stroke-width="1.5"/>
-<line x1="890.0" y1="500.9" x2="895.0" y2="500.9" stroke="#c3c2b7" stroke-width="1"/>
-<text x="898.0" y="504.4" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Data · Extraction  5.0%</text>
-<line x1="890.0" y1="592.7" x2="895.0" y2="592.7" stroke="#c3c2b7" stroke-width="1"/>
-<text x="898.0" y="596.2" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Data · Transformation  1.5%</text>
+<polyline points="571.0,529.7 595.4,514.0 619.8,514.0 644.2,514.0 668.5,508.7 692.9,508.7 717.3,508.7 741.7,503.5 766.1,493.0 790.5,487.7 814.8,487.7 839.2,506.1 863.6,500.9 888.0,514.0" fill="none" stroke="#4a3aa7" stroke-width="2.1" stroke-opacity="0.95" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="888.0" cy="514.0" r="3.4" fill="#4a3aa7" stroke="#fcfcfb" stroke-width="1.5"/>
+<polyline points="571.0,587.4 595.4,587.4 619.8,587.4 644.2,584.8 668.5,592.7 692.9,597.9 717.3,584.8 741.7,582.2 766.1,582.2 790.5,582.2 814.8,576.9 839.2,592.7 863.6,592.7 888.0,582.2" fill="none" stroke="#4a3aa7" stroke-width="2.1" stroke-opacity="0.79" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="888.0" cy="582.2" r="3.4" fill="#4a3aa7" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="890.0" y1="514.0" x2="895.0" y2="514.0" stroke="#c3c2b7" stroke-width="1"/>
+<text x="898.0" y="517.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Data · Extraction  4.5%</text>
+<line x1="890.0" y1="582.2" x2="895.0" y2="582.2" stroke="#c3c2b7" stroke-width="1"/>
+<text x="898.0" y="585.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Data · Transformation  1.9%</text>
 <text x="571.0" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">08-31</text>
-<text x="623.8" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">09-07</text>
-<text x="676.7" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">09-21</text>
-<text x="729.5" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">10-05</text>
-<text x="888.0" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">11-16</text>
-<text x="24.0" y="760.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">Agent workflow execution is still the largest single workload at 21.6%. General tasks are 32% of tokens; Data is 6%.</text>
+<text x="619.8" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">09-07</text>
+<text x="668.5" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">09-21</text>
+<text x="717.3" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">10-05</text>
+<text x="888.0" y="672.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">11-23</text>
+<text x="24.0" y="760.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">Agent workflow execution is still the largest single workload at 24.3%. General tasks are 27% of tokens; Data is 6%.</text>
 <text x="24.0" y="782.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="start" font-weight="normal" style="">A flat line is a finding: most workloads moved by a few points over the record. The classification endpoint restates a trailing week, so the latest capture is the current view.</text>
-<text x="24.0" y="812.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="start" font-weight="normal" style="">Source: OpenRouter (openrouter.ai/rankings), as of 2026-11-16. Licensed under CC BY 4.0.</text>
+<text x="24.0" y="812.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="start" font-weight="normal" style="">Source: OpenRouter (openrouter.ai/rankings), as of 2026-11-23. Licensed under CC BY 4.0.</text>
 </svg>

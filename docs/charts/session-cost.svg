@@ -2,27 +2,27 @@
 <title>What an agent session costs</title>
 <desc>Line chart of median session cost by app, model and turn range, on a log scale; the spread at the longest published turn range is the finding.</desc>
 <rect width="1260.0" height="660.0" fill="#fcfcfb"/>
-<text x="24.0" y="30.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">At the longest published session, the model you pick changes the cost by up to 215×</text>
-<text x="24.0" y="52.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12" fill="#52514e" text-anchor="start" font-weight="normal" style="">median USD per session · log scale · trailing 30-day window to 2026-11-15 · each line is one model in one app</text>
+<text x="24.0" y="30.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">At the longest published session, the model you pick changes the cost by up to 199×</text>
+<text x="24.0" y="52.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12" fill="#52514e" text-anchor="start" font-weight="normal" style="">median USD per session · log scale · trailing 30-day window to 2026-11-22 · each line is one model in one app</text>
 <text x="24.0" y="72.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#898781" text-anchor="start" font-weight="normal" style="">vertical distance at the right edge is the whole argument; apps publish different turn ranges, so compare within a panel</text>
 <circle cx="29.0" cy="92" r="5" fill="#eb6834"/>
 <text x="39.0" y="96.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" style="">Chinese lab</text>
 <circle cx="134.6" cy="92" r="5" fill="#2a78d6"/>
 <text x="144.6" y="96.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#52514e" text-anchor="start" font-weight="normal" style="">other lab</text>
 <text x="76.0" y="132.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">Kilo Code</text>
-<text x="76.0" y="148.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="start" font-weight="normal" style="">19 models · 4 turn ranges</text>
-<line x1="76.0" y1="439.2" x2="326.0" y2="439.2" stroke="#e1e0d9" stroke-width="1"/>
-<text x="68.0" y="442.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$0.0001</text>
-<line x1="76.0" y1="388.7" x2="326.0" y2="388.7" stroke="#e1e0d9" stroke-width="1"/>
-<text x="68.0" y="392.2" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$0.001</text>
-<line x1="76.0" y1="338.2" x2="326.0" y2="338.2" stroke="#e1e0d9" stroke-width="1"/>
-<text x="68.0" y="341.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$0.01</text>
-<line x1="76.0" y1="287.7" x2="326.0" y2="287.7" stroke="#e1e0d9" stroke-width="1"/>
-<text x="68.0" y="291.2" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$0.1</text>
-<line x1="76.0" y1="237.2" x2="326.0" y2="237.2" stroke="#e1e0d9" stroke-width="1"/>
-<text x="68.0" y="240.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$1</text>
-<line x1="76.0" y1="186.7" x2="326.0" y2="186.7" stroke="#e1e0d9" stroke-width="1"/>
-<text x="68.0" y="190.2" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$10</text>
+<text x="76.0" y="148.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="start" font-weight="normal" style="">16 models · 4 turn ranges</text>
+<line x1="76.0" y1="439.9" x2="326.0" y2="439.9" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="443.4" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$0.0001</text>
+<line x1="76.0" y1="389.1" x2="326.0" y2="389.1" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="392.6" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$0.001</text>
+<line x1="76.0" y1="338.3" x2="326.0" y2="338.3" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="341.8" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$0.01</text>
+<line x1="76.0" y1="287.5" x2="326.0" y2="287.5" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="291.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$0.1</text>
+<line x1="76.0" y1="236.7" x2="326.0" y2="236.7" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="240.2" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$1</text>
+<line x1="76.0" y1="185.9" x2="326.0" y2="185.9" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="189.4" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">$10</text>
 <line x1="76.0" y1="455.0" x2="326.0" y2="455.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="98.0" y1="455.0" x2="98.0" y2="451.0" stroke="#c3c2b7" stroke-width="1"/>
 <text x="98.0" y="472.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">1</text>
@@ -33,40 +33,37 @@
 <line x1="304.0" y1="455.0" x2="304.0" y2="451.0" stroke="#c3c2b7" stroke-width="1"/>
 <text x="304.0" y="472.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">50+</text>
 <text x="201.0" y="490.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="middle" font-weight="normal" style="">turns in the session</text>
-<polyline points="98.0,423.7 166.7,337.0 235.3,287.2 304.0,231.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,280.9 166.7,258.6 235.3,228.7 304.0,189.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,295.8 166.7,271.7 235.3,243.6 304.0,206.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,441.9 166.7,343.5 235.3,307.1 304.0,264.2" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,433.3 166.7,343.0 235.3,306.3 304.0,260.2" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="166.7,297.3 235.3,266.1" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="166.7,303.2 235.3,268.4" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,412.2 166.7,338.4 235.3,307.4 304.0,269.1" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,416.5 166.7,346.2 235.3,311.8 304.0,267.8" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="166.7,269.9 235.3,235.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,378.5 166.7,307.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="235.3,300.0 304.0,261.4" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="166.7,270.5 235.3,238.7 304.0,205.3" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,430.4 166.7,343.0 235.3,312.9 304.0,268.4" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="166.7,281.6 235.3,256.9 304.0,216.1" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="166.7,292.0 235.3,270.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="235.3,288.7 304.0,254.1" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,356.3 166.7,312.8 235.3,271.0 304.0,227.9" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="98.0,426.6 166.7,341.6 235.3,303.0 304.0,256.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,423.9 166.7,335.6 235.3,290.0 304.0,232.0" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,283.1 166.7,258.2 235.3,226.2 304.0,189.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,297.6 166.7,271.8 235.3,242.3 304.0,205.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,441.8 166.7,342.3 235.3,306.8 304.0,261.0" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,434.2 166.7,342.8 235.3,305.5 304.0,259.3" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="166.7,295.9 235.3,263.1" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,417.8 166.7,339.1 235.3,308.4 304.0,268.9" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,418.4 166.7,346.9 235.3,313.0 304.0,269.3" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,378.8 166.7,307.6" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="235.3,301.1 304.0,260.8" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="166.7,270.1 235.3,238.7 304.0,204.6" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,430.6 166.7,343.0 235.3,313.0 304.0,267.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="166.7,281.9 235.3,257.7 304.0,214.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="166.7,291.3 235.3,270.7 304.0,229.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,353.5 166.7,310.3 235.3,270.2 304.0,228.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="98.0,428.8 166.7,341.4 235.3,302.4 304.0,256.0" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
 <circle cx="304.0" cy="189.5" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="295.0" y="204.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$8.80</text>
+<text x="295.0" y="204.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$8.49</text>
 <text x="295.0" y="216.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">claude-opus-5.5</text>
-<circle cx="304.0" cy="269.1" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="295.0" y="284.1" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.234</text>
-<text x="295.0" y="296.1" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">deepseek-v4.1-flash</text>
-<text x="201.0" y="509.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#52514e" text-anchor="middle" font-weight="600" style="">38× spread at 50+ turns</text>
+<circle cx="304.0" cy="269.3" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="295.0" y="284.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.228</text>
+<text x="295.0" y="296.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">deepseek-v4.1-flash</text>
+<text x="201.0" y="509.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#52514e" text-anchor="middle" font-weight="600" style="">37× spread at 50+ turns</text>
 <text x="370.0" y="132.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">Codex</text>
-<text x="370.0" y="148.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="start" font-weight="normal" style="">18 models · 4 turn ranges</text>
-<line x1="370.0" y1="439.2" x2="620.0" y2="439.2" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="370.0" y1="388.7" x2="620.0" y2="388.7" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="370.0" y1="338.2" x2="620.0" y2="338.2" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="370.0" y1="287.7" x2="620.0" y2="287.7" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="370.0" y1="237.2" x2="620.0" y2="237.2" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="370.0" y1="186.7" x2="620.0" y2="186.7" stroke="#e1e0d9" stroke-width="1"/>
+<text x="370.0" y="148.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="start" font-weight="normal" style="">19 models · 4 turn ranges</text>
+<line x1="370.0" y1="439.9" x2="620.0" y2="439.9" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="370.0" y1="389.1" x2="620.0" y2="389.1" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="370.0" y1="338.3" x2="620.0" y2="338.3" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="370.0" y1="287.5" x2="620.0" y2="287.5" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="370.0" y1="236.7" x2="620.0" y2="236.7" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="370.0" y1="185.9" x2="620.0" y2="185.9" stroke="#e1e0d9" stroke-width="1"/>
 <line x1="370.0" y1="455.0" x2="620.0" y2="455.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="392.0" y1="455.0" x2="392.0" y2="451.0" stroke="#c3c2b7" stroke-width="1"/>
 <text x="392.0" y="472.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">1</text>
@@ -77,39 +74,40 @@
 <line x1="598.0" y1="455.0" x2="598.0" y2="451.0" stroke="#c3c2b7" stroke-width="1"/>
 <text x="598.0" y="472.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">50+</text>
 <text x="495.0" y="490.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="middle" font-weight="normal" style="">turns in the session</text>
-<polyline points="392.0,377.2 460.7,353.3 529.3,308.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,299.9 460.7,267.9 529.3,230.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,310.9 460.7,286.2 529.3,253.6" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,394.4 460.7,354.6 529.3,318.8 598.0,292.5" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,399.6 460.7,353.5 529.3,316.0 598.0,288.6" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,317.1 460.7,285.7 529.3,235.2 598.0,192.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,334.6 598.0,222.3" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="460.7,304.5 529.3,261.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,365.6 460.7,339.1 529.3,308.3 598.0,272.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,301.4 460.7,271.0 529.3,236.4 598.0,202.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,312.9 460.7,279.9 529.3,254.1" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,277.6 460.7,250.6 529.3,212.7 598.0,174.6" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,380.3 460.7,354.8 529.3,318.7 598.0,272.0" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,314.9 460.7,284.1 529.3,252.8 598.0,215.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,314.1 460.7,287.5 529.3,254.7 598.0,215.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,329.8 460.7,302.2 529.3,277.5 598.0,236.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,377.3 460.7,324.3 529.3,279.6 598.0,256.6" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="392.0,397.8 460.7,353.4 529.3,313.7 598.0,289.0" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<circle cx="598.0" cy="174.6" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="589.0" y="189.6" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$17.32</text>
-<text x="589.0" y="201.6" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">gpt-6-astra</text>
-<circle cx="598.0" cy="292.5" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="589.0" y="307.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.0804</text>
-<text x="589.0" y="319.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">deepseek-v4.1-flash</text>
-<text x="495.0" y="509.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#52514e" text-anchor="middle" font-weight="600" style="">215× spread at 50+ turns</text>
+<polyline points="392.0,377.5 460.7,356.6 529.3,315.1" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,299.7 460.7,269.9 529.3,231.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,310.6 460.7,287.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,393.9 460.7,353.9 529.3,318.5 598.0,291.5" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,399.2 460.7,355.9 529.3,317.1 598.0,287.1" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,316.5 460.7,284.9 529.3,235.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,334.1 460.7,293.6 529.3,253.5 598.0,221.6" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="460.7,306.6 529.3,263.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,366.0 460.7,340.7 529.3,309.5 598.0,272.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,300.7 460.7,271.0 529.3,236.0 598.0,201.1" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,313.8 460.7,279.6 529.3,255.4" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,277.4 460.7,249.1 529.3,213.7 598.0,174.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,380.8 460.7,354.1 529.3,318.5 598.0,274.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,315.4 460.7,283.3 529.3,253.6 598.0,214.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,313.8 460.7,287.7 529.3,254.7 598.0,215.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,329.6 460.7,302.0 529.3,277.2 598.0,237.6" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,311.2 460.7,289.1 529.3,255.7 598.0,222.6" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,373.4 460.7,328.3 529.3,278.8 598.0,255.4" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="392.0,397.6 460.7,353.8 529.3,311.4 598.0,288.2" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<circle cx="598.0" cy="174.7" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="589.0" y="189.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$16.61</text>
+<text x="589.0" y="201.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">gpt-6-astra</text>
+<circle cx="598.0" cy="291.5" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="589.0" y="306.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.0834</text>
+<text x="589.0" y="318.5" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">deepseek-v4.1-flash</text>
+<text x="495.0" y="509.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#52514e" text-anchor="middle" font-weight="600" style="">199× spread at 50+ turns</text>
 <text x="664.0" y="132.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">Claude Code</text>
-<text x="664.0" y="148.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="start" font-weight="normal" style="">37 models · 3 turn ranges</text>
-<line x1="664.0" y1="439.2" x2="914.0" y2="439.2" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="664.0" y1="388.7" x2="914.0" y2="388.7" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="664.0" y1="338.2" x2="914.0" y2="338.2" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="664.0" y1="287.7" x2="914.0" y2="287.7" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="664.0" y1="237.2" x2="914.0" y2="237.2" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="664.0" y1="186.7" x2="914.0" y2="186.7" stroke="#e1e0d9" stroke-width="1"/>
+<text x="664.0" y="148.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="start" font-weight="normal" style="">34 models · 3 turn ranges</text>
+<line x1="664.0" y1="439.9" x2="914.0" y2="439.9" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="664.0" y1="389.1" x2="914.0" y2="389.1" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="664.0" y1="338.3" x2="914.0" y2="338.3" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="664.0" y1="287.5" x2="914.0" y2="287.5" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="664.0" y1="236.7" x2="914.0" y2="236.7" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="664.0" y1="185.9" x2="914.0" y2="185.9" stroke="#e1e0d9" stroke-width="1"/>
 <line x1="664.0" y1="455.0" x2="914.0" y2="455.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="686.0" y1="455.0" x2="686.0" y2="451.0" stroke="#c3c2b7" stroke-width="1"/>
 <text x="686.0" y="472.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">1</text>
@@ -118,86 +116,81 @@
 <line x1="892.0" y1="455.0" x2="892.0" y2="451.0" stroke="#c3c2b7" stroke-width="1"/>
 <text x="892.0" y="472.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">10–49</text>
 <text x="789.0" y="490.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="middle" font-weight="normal" style="">turns in the session</text>
-<polyline points="686.0,336.5 789.0,309.8 892.0,272.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,292.2 789.0,278.8 892.0,247.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,356.6 789.0,273.3 892.0,230.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,302.7 789.0,276.3 892.0,242.9" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,284.3 789.0,261.8 892.0,222.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,301.9 789.0,241.3 892.0,209.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,276.9 789.0,239.5 892.0,205.4" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,378.9 789.0,351.9" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,280.2 789.0,258.4 892.0,222.6" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,290.4 789.0,267.3 892.0,232.9" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,294.4 789.0,278.6 892.0,250.1" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,305.6 789.0,284.3 892.0,253.0" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,391.9 789.0,365.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,383.2 789.0,358.1" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,336.7 789.0,313.2 892.0,267.2" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,335.0 789.0,313.8 892.0,268.9" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,375.8 789.0,354.4" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,379.0 789.0,357.6" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,350.1 789.0,312.0 892.0,262.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,316.5 789.0,287.0 892.0,236.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="789.0,331.9 892.0,280.9" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,375.6 789.0,357.6" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="789.0,317.2 892.0,264.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,337.7 789.0,298.9 892.0,257.3" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,321.3 789.0,295.8 892.0,251.4" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,384.7 892.0,214.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,383.2 789.0,356.6" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,319.0 789.0,292.7 892.0,255.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="789.0,306.0 892.0,274.9" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,382.7 789.0,338.3 892.0,290.8" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,369.5 789.0,348.4" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,359.3 789.0,288.2 892.0,241.1" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,321.9 789.0,290.9 892.0,243.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,342.1 789.0,327.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="789.0,312.3 892.0,274.5" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,357.9 789.0,322.1 892.0,275.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="686.0,386.5 789.0,356.3" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<circle cx="892.0" cy="205.4" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="883.0" y="187.4" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$4.25</text>
-<text x="883.0" y="199.4" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">claude-fable-5.2</text>
-<circle cx="892.0" cy="290.8" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="883.0" y="305.8" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.0870</text>
-<text x="883.0" y="317.8" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">qwen3.8-27b</text>
-<text x="789.0" y="509.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#52514e" text-anchor="middle" font-weight="600" style="">49× spread at 10–49 turns</text>
+<polyline points="686.0,333.7 789.0,311.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,293.7 789.0,279.2 892.0,247.0" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,353.7 789.0,273.2 892.0,232.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,304.0 789.0,277.3 892.0,242.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,284.3 789.0,262.9 892.0,223.4" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,308.2 789.0,240.3 892.0,207.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,277.7 789.0,241.4 892.0,206.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,382.3 789.0,353.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,284.1 789.0,259.2 892.0,222.9" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,290.9 789.0,267.6 892.0,233.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,296.4 789.0,278.5 892.0,250.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,307.4 789.0,284.4 892.0,252.9" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,393.7 789.0,367.5" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,382.6 789.0,358.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,337.5 789.0,312.9 892.0,266.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,333.8 789.0,314.0 892.0,268.8" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,377.5 789.0,355.2" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,380.9 789.0,358.6" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,353.8 789.0,314.4 892.0,264.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,317.4 789.0,285.6 892.0,237.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,320.9 789.0,284.1 892.0,229.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,340.5 789.0,293.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,375.8 789.0,357.8" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,335.8 789.0,302.1 892.0,258.1" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,321.2 789.0,294.8 892.0,251.9" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,382.3 789.0,356.6" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,319.2 789.0,291.5 892.0,254.9" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,329.1 789.0,306.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,380.2 789.0,339.5" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,412.8 789.0,288.6 892.0,238.1" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,393.7 789.0,370.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,323.8 789.0,290.8 892.0,241.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,355.4 789.0,322.2" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="686.0,386.0 789.0,355.7" fill="none" stroke="#eb6834" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<circle cx="892.0" cy="206.3" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="883.0" y="188.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$3.96</text>
+<text x="883.0" y="200.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">claude-fable-5.2</text>
+<circle cx="892.0" cy="268.8" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="883.0" y="283.8" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.233</text>
+<text x="883.0" y="295.8" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">deepseek-v4-pro</text>
+<text x="789.0" y="509.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#52514e" text-anchor="middle" font-weight="600" style="">17× spread at 10–49 turns</text>
 <text x="958.0" y="132.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">Hermes Agent</text>
-<text x="958.0" y="148.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="start" font-weight="normal" style="">12 models · 2 turn ranges</text>
-<line x1="958.0" y1="439.2" x2="1208.0" y2="439.2" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="958.0" y1="388.7" x2="1208.0" y2="388.7" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="958.0" y1="338.2" x2="1208.0" y2="338.2" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="958.0" y1="287.7" x2="1208.0" y2="287.7" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="958.0" y1="237.2" x2="1208.0" y2="237.2" stroke="#e1e0d9" stroke-width="1"/>
-<line x1="958.0" y1="186.7" x2="1208.0" y2="186.7" stroke="#e1e0d9" stroke-width="1"/>
+<text x="958.0" y="148.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="start" font-weight="normal" style="">10 models · 2 turn ranges</text>
+<line x1="958.0" y1="439.9" x2="1208.0" y2="439.9" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="958.0" y1="389.1" x2="1208.0" y2="389.1" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="958.0" y1="338.3" x2="1208.0" y2="338.3" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="958.0" y1="287.5" x2="1208.0" y2="287.5" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="958.0" y1="236.7" x2="1208.0" y2="236.7" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="958.0" y1="185.9" x2="1208.0" y2="185.9" stroke="#e1e0d9" stroke-width="1"/>
 <line x1="958.0" y1="455.0" x2="1208.0" y2="455.0" stroke="#c3c2b7" stroke-width="1"/>
 <line x1="980.0" y1="455.0" x2="980.0" y2="451.0" stroke="#c3c2b7" stroke-width="1"/>
 <text x="980.0" y="472.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">1</text>
 <line x1="1186.0" y1="455.0" x2="1186.0" y2="451.0" stroke="#c3c2b7" stroke-width="1"/>
 <text x="1186.0" y="472.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">2–9</text>
 <text x="1083.0" y="490.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="middle" font-weight="normal" style="">turns in the session</text>
-<polyline points="980.0,367.3 1186.0,283.2" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,302.5 1186.0,284.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,329.3 1186.0,266.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,347.0 1186.0,251.0" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,348.0 1186.0,246.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,349.7 1186.0,263.6" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,314.4 1186.0,271.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,306.6 1186.0,286.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,312.2 1186.0,270.4" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,310.8 1186.0,274.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,313.7 1186.0,254.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<polyline points="980.0,331.1 1186.0,283.4" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
-<circle cx="1186.0" cy="246.7" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="1177.0" y="228.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.649</text>
-<text x="1177.0" y="240.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">claude-fable-5.2</text>
-<circle cx="1186.0" cy="286.3" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="1177.0" y="301.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.107</text>
-<text x="1177.0" y="313.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">claude-sonnet-5</text>
-<text x="1083.0" y="509.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#52514e" text-anchor="middle" font-weight="600" style="">6.1× spread at 2–9 turns</text>
+<polyline points="980.0,315.7 1186.0,265.9" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="980.0,347.4 1186.0,250.4" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="980.0,345.0 1186.0,247.9" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="980.0,353.3 1186.0,264.1" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="980.0,309.1 1186.0,270.5" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="980.0,306.0 1186.0,275.8" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="980.0,317.7 1186.0,270.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="980.0,300.3 1186.0,272.4" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="980.0,301.0 1186.0,254.3" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<polyline points="980.0,328.4 1186.0,282.7" fill="none" stroke="#2a78d6" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<circle cx="1186.0" cy="247.9" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="1177.0" y="229.9" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.600</text>
+<text x="1177.0" y="241.9" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">claude-fable-5.2</text>
+<circle cx="1186.0" cy="282.7" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="1177.0" y="297.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#0b0b0b" text-anchor="end" font-weight="600" style="font-variant-numeric: tabular-nums;">$0.124</text>
+<text x="1177.0" y="309.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9" fill="#52514e" text-anchor="end" font-weight="normal" style="">grok-4.6</text>
+<text x="1083.0" y="509.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#52514e" text-anchor="middle" font-weight="600" style="">4.8× spread at 2–9 turns</text>
 <line x1="24" y1="537.0" x2="1236.0" y2="537.0" stroke="#c3c2b7" stroke-width="1"/>
-<text x="24.0" y="561.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">In Codex at 50+ turns, a session costs $0.0804 on deepseek-v4.1-flash and $17.32 on gpt-6-astra — a 215× spread.</text>
+<text x="24.0" y="561.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">In Codex at 50+ turns, a session costs $0.0834 on deepseek-v4.1-flash and $16.61 on gpt-6-astra — a 199× spread.</text>
 <text x="24.0" y="581.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Median session cost at list price, for the models each app actually serves. Not a benchmark of the models and not a claim about quality.</text>
 <text x="24.0" y="599.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="start" font-weight="normal" style="">Orange marks a Chinese lab; the grouping is by lab headquarters, not by where the inference runs. Claude Code publishes only to 10–49 turns; Hermes Agent publishes only to 2–9 turns, so those spreads cover a shorter session.</text>
-<text x="24.0" y="656.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="start" font-weight="normal" style="">Source: OpenRouter Data API, as of 2026-11-15. Licensed under CC BY 4.0.</text>
+<text x="24.0" y="656.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="9.5" fill="#898781" text-anchor="start" font-weight="normal" style="">Source: OpenRouter Data API, as of 2026-11-22. Licensed under CC BY 4.0.</text>
 </svg>
