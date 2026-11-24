@@ -1,9 +1,9 @@
 source_id,first_success_at,last_success_at,last_attempt_at,consecutive_failures,consecutive_throttled,expected_interval_h,staleness_h,gate_fail_rate_28d,attempts_28d,status
-opencode.data.usage,2026-10-26T09:46:38Z,2026-11-17T04:44:52Z,2026-11-17T04:44:52Z,0,0,168,0.5,0.000,5,active
-openrouter.benchmarks.artificial-analysis,2026-09-01T14:47:56Z,2026-11-17T04:44:51Z,2026-11-17T04:44:51Z,0,0,168,0.5,0.000,4,active
-openrouter.benchmarks.design-arena,2026-09-01T14:48:19Z,2026-11-17T04:44:47Z,2026-11-17T04:44:47Z,0,0,168,0.5,0.000,4,active
-openrouter.benchmarks.openrouter,2026-09-01T17:26:03Z,2026-11-17T04:44:46Z,2026-11-17T04:44:46Z,0,0,168,0.5,0.000,4,active
-openrouter.classifications.task,2026-09-01T14:48:23Z,2026-11-17T04:44:49Z,2026-11-17T04:44:49Z,0,0,168,0.5,0.000,4,active
-openrouter.models.catalog,2026-09-01T14:48:26Z,2026-11-17T04:44:51Z,2026-11-17T04:44:51Z,0,0,168,0.5,0.000,4,active
-openrouter.providers.directory,2026-10-27T01:36:18Z,2026-11-17T04:44:42Z,2026-11-17T04:44:42Z,0,0,168,0.5,0.000,4,active
-openrouter.sessions.cost,2026-09-01T17:26:13Z,2026-11-17T04:44:48Z,2026-11-17T04:44:48Z,0,0,168,0.5,0.000,16,active
+opencode.data.usage,2026-10-26T09:46:38Z,2026-11-24T06:20:27Z,2026-11-24T06:20:27Z,0,0,168,0.7,0.000,4,active
+openrouter.benchmarks.artificial-analysis,2026-09-01T14:47:56Z,2026-11-24T06:20:21Z,2026-11-24T06:20:21Z,0,0,168,0.7,0.000,4,active
+openrouter.benchmarks.design-arena,2026-09-01T14:48:19Z,2026-11-24T06:20:16Z,2026-11-24T06:20:16Z,0,0,168,0.7,0.000,4,active
+openrouter.benchmarks.openrouter,2026-09-01T17:26:03Z,2026-11-24T06:20:25Z,2026-11-24T06:20:25Z,0,0,168,0.7,0.000,4,active
+openrouter.classifications.task,2026-09-01T14:48:23Z,2026-11-24T06:20:19Z,2026-11-24T06:20:19Z,0,0,168,0.7,0.000,4,active
+openrouter.models.catalog,2026-09-01T14:48:26Z,2026-11-24T06:20:21Z,2026-11-24T06:20:21Z,0,0,168,0.7,0.000,4,active
+openrouter.providers.directory,2026-10-27T01:36:18Z,2026-11-24T06:20:16Z,2026-11-24T06:20:16Z,0,0,168,0.7,0.000,4,active
+openrouter.sessions.cost,2026-09-01T17:26:13Z,2026-11-24T06:20:21Z,2026-11-24T06:20:21Z,0,0,168,0.7,0.000,16,active
